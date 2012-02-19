@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
+        <file>
+            <url>sapi/cli/php_cli.c</url>
+            <line>563</line>
+            <line>1147</line>
+        </file>
+        <file>
+            <url>sapi/ss/php_ss.c</url>
+            <line>662</line>
+        </file>
+        <file>
+            <url>Zend/zend_hash.c</url>
+            <line>194</line>
+            <line>962</line>
+        </file>
+        <file>
+            <url>Zend/zend.h</url>
+            <line>306</line>
+            <line>317</line>
+            <line>567</line>
+        </file>
+    </editor-bookmarks>
+</project-private>

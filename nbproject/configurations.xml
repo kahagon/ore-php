@@ -1,0 +1,5669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="php-src-trunk" root=".">
+      <df name="autom4te.cache">
+      </df>
+      <df name="build">
+      </df>
+      <df name="ext">
+        <df name="bcmath">
+          <df name="libbcmath">
+            <df name="src">
+              <in>add.c</in>
+              <in>bcmath.h</in>
+              <in>compare.c</in>
+              <in>config.h</in>
+              <in>debug.c</in>
+              <in>div.c</in>
+              <in>divmod.c</in>
+              <in>doaddsub.c</in>
+              <in>init.c</in>
+              <in>int2num.c</in>
+              <in>nearzero.c</in>
+              <in>neg.c</in>
+              <in>num2long.c</in>
+              <in>num2str.c</in>
+              <in>outofmem.c</in>
+              <in>output.c</in>
+              <in>private.h</in>
+              <in>raise.c</in>
+              <in>raisemod.c</in>
+              <in>recmul.c</in>
+              <in>rmzero.c</in>
+              <in>rt.c</in>
+              <in>sqrt.c</in>
+              <in>str2num.c</in>
+              <in>sub.c</in>
+              <in>zero.c</in>
+            </df>
+            <in>acconfig.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>bcmath.c</in>
+          <in>php_bcmath.h</in>
+        </df>
+        <df name="bz2">
+          <df name="tests">
+          </df>
+          <in>bz2.c</in>
+          <in>bz2_filter.c</in>
+          <in>php_bz2.h</in>
+        </df>
+        <df name="calendar">
+          <df name="tests">
+          </df>
+          <in>cal_unix.c</in>
+          <in>calendar.c</in>
+          <in>dow.c</in>
+          <in>easter.c</in>
+          <in>french.c</in>
+          <in>gregor.c</in>
+          <in>jewish.c</in>
+          <in>julian.c</in>
+          <in>php_calendar.h</in>
+          <in>sdncal.h</in>
+        </df>
+        <df name="com_dotnet">
+          <df name="tests">
+          </df>
+          <in>com_com.c</in>
+          <in>com_dotnet.c</in>
+          <in>com_extension.c</in>
+          <in>com_handlers.c</in>
+          <in>com_iterator.c</in>
+          <in>com_misc.c</in>
+          <in>com_olechar.c</in>
+          <in>com_persist.c</in>
+          <in>com_saproxy.c</in>
+          <in>com_typeinfo.c</in>
+          <in>com_variant.c</in>
+          <in>com_wrapper.c</in>
+          <in>php_com_dotnet.h</in>
+          <in>php_com_dotnet_internal.h</in>
+        </df>
+        <df name="ctype">
+          <df name="tests">
+          </df>
+          <in>ctype.c</in>
+          <in>php_ctype.h</in>
+        </df>
+        <df name="curl">
+          <df name="tests">
+            <df name="responder">
+            </df>
+          </df>
+          <in>interface.c</in>
+          <in>multi.c</in>
+          <in>php_curl.h</in>
+          <in>share.c</in>
+          <in>streams.c</in>
+        </df>
+        <df name="date">
+          <df name="lib">
+            <in>astro.c</in>
+            <in>astro.h</in>
+            <in>dow.c</in>
+            <in>fallbackmap.h</in>
+            <in>interval.c</in>
+            <in>parse_date.c</in>
+            <in>parse_iso_intervals.c</in>
+            <in>parse_tz.c</in>
+            <in>timelib.c</in>
+            <in>timelib.h</in>
+            <in>timelib_config.h</in>
+            <in>timelib_structs.h</in>
+            <in>timezonedb.h</in>
+            <in>timezonemap.h</in>
+            <in>tm2unixtime.c</in>
+            <in>unixtime2tm.c</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_date.c</in>
+          <in>php_date.h</in>
+        </df>
+        <df name="dba">
+          <df name="libcdb">
+            <in>cdb.c</in>
+            <in>cdb.h</in>
+            <in>cdb_make.c</in>
+            <in>cdb_make.h</in>
+            <in>uint32.c</in>
+            <in>uint32.h</in>
+          </df>
+          <df name="libflatfile">
+            <in>flatfile.c</in>
+            <in>flatfile.h</in>
+          </df>
+          <df name="libinifile">
+            <in>inifile.c</in>
+            <in>inifile.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>dba.c</in>
+          <in>dba_cdb.c</in>
+          <in>dba_db1.c</in>
+          <in>dba_db2.c</in>
+          <in>dba_db3.c</in>
+          <in>dba_db4.c</in>
+          <in>dba_dbm.c</in>
+          <in>dba_flatfile.c</in>
+          <in>dba_gdbm.c</in>
+          <in>dba_inifile.c</in>
+          <in>dba_ndbm.c</in>
+          <in>dba_qdbm.c</in>
+          <in>dba_tcadb.c</in>
+          <in>php_cdb.h</in>
+          <in>php_db1.h</in>
+          <in>php_db2.h</in>
+          <in>php_db3.h</in>
+          <in>php_db4.h</in>
+          <in>php_dba.h</in>
+          <in>php_dbm.h</in>
+          <in>php_flatfile.h</in>
+          <in>php_gdbm.h</in>
+          <in>php_inifile.h</in>
+          <in>php_ndbm.h</in>
+          <in>php_qdbm.h</in>
+          <in>php_tcadb.h</in>
+        </df>
+        <df name="dom">
+          <df name="examples">
+          </df>
+          <df name="tests">
+          </df>
+          <in>attr.c</in>
+          <in>cdatasection.c</in>
+          <in>characterdata.c</in>
+          <in>comment.c</in>
+          <in>document.c</in>
+          <in>documentfragment.c</in>
+          <in>documenttype.c</in>
+          <in>dom_ce.h</in>
+          <in>dom_fe.h</in>
+          <in>dom_iterators.c</in>
+          <in>dom_properties.h</in>
+          <in>domconfiguration.c</in>
+          <in>domerror.c</in>
+          <in>domerrorhandler.c</in>
+          <in>domexception.c</in>
+          <in>domimplementation.c</in>
+          <in>domimplementationlist.c</in>
+          <in>domimplementationsource.c</in>
+          <in>domlocator.c</in>
+          <in>domstringlist.c</in>
+          <in>element.c</in>
+          <in>entity.c</in>
+          <in>entityreference.c</in>
+          <in>namednodemap.c</in>
+          <in>namelist.c</in>
+          <in>node.c</in>
+          <in>nodelist.c</in>
+          <in>notation.c</in>
+          <in>php_dom.c</in>
+          <in>php_dom.h</in>
+          <in>processinginstruction.c</in>
+          <in>string_extend.c</in>
+          <in>text.c</in>
+          <in>typeinfo.c</in>
+          <in>userdatahandler.c</in>
+          <in>xml_common.h</in>
+          <in>xpath.c</in>
+        </df>
+        <df name="enchant">
+          <df name="docs">
+            <df name="examples">
+            </df>
+          </df>
+          <df name="tests">
+          </df>
+          <in>enchant.c</in>
+          <in>php_enchant.h</in>
+        </df>
+        <df name="ereg">
+          <df name="regex">
+            <in>cclass.h</in>
+            <in>cname.h</in>
+            <in>debug.c</in>
+            <in>debug.ih</in>
+            <in>engine.c</in>
+            <in>engine.ih</in>
+            <in>main.c</in>
+            <in>main.ih</in>
+            <in>regcomp.c</in>
+            <in>regcomp.ih</in>
+            <in>regerror.c</in>
+            <in>regerror.ih</in>
+            <in>regex.h</in>
+            <in>regex2.h</in>
+            <in>regexec.c</in>
+            <in>regfree.c</in>
+            <in>split.c</in>
+            <in>utils.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>ereg.c</in>
+          <in>php_ereg.h</in>
+          <in>php_regex.h</in>
+        </df>
+        <df name="exif">
+          <df name="tests">
+          </df>
+          <in>exif.c</in>
+          <in>php_exif.h</in>
+        </df>
+        <df name="fileinfo">
+          <df name="libmagic">
+            <in>apprentice.c</in>
+            <in>apptype.c</in>
+            <in>ascmagic.c</in>
+            <in>cdf.c</in>
+            <in>cdf.h</in>
+            <in>cdf_time.c</in>
+            <in>compress.c</in>
+            <in>config.h</in>
+            <in>elfclass.h</in>
+            <in>encoding.c</in>
+            <in>file.h</in>
+            <in>fsmagic.c</in>
+            <in>funcs.c</in>
+            <in>is_tar.c</in>
+            <in>magic.c</in>
+            <in>magic.h</in>
+            <in>names.h</in>
+            <in>patchlevel.h</in>
+            <in>print.c</in>
+            <in>readcdf.c</in>
+            <in>readelf.c</in>
+            <in>readelf.h</in>
+            <in>softmagic.c</in>
+            <in>tar.h</in>
+          </df>
+          <df name="tests">
+            <df name="resources">
+            </df>
+          </df>
+          <in>data_file.c</in>
+          <in>fileinfo.c</in>
+          <in>php_fileinfo.h</in>
+        </df>
+        <df name="filter">
+          <df name="docs">
+          </df>
+          <df name="tests">
+          </df>
+          <in>callback_filter.c</in>
+          <in>filter.c</in>
+          <in>filter_private.h</in>
+          <in>logical_filters.c</in>
+          <in>php_filter.h</in>
+          <in>sanitizing_filters.c</in>
+        </df>
+        <df name="ftp">
+          <df name="tests">
+          </df>
+          <in>ftp.c</in>
+          <in>ftp.h</in>
+          <in>php_ftp.c</in>
+          <in>php_ftp.h</in>
+        </df>
+        <df name="gd">
+          <df name="libgd">
+            <in>gd.c</in>
+            <in>gd.h</in>
+            <in>gd2copypal.c</in>
+            <in>gd2time.c</in>
+            <in>gd2topng.c</in>
+            <in>gd_arc.c</in>
+            <in>gd_arc_f_buggy.c</in>
+            <in>gd_color.c</in>
+            <in>gd_compat.c</in>
+            <in>gd_compat.h</in>
+            <in>gd_filter.c</in>
+            <in>gd_gd.c</in>
+            <in>gd_gd2.c</in>
+            <in>gd_gif_in.c</in>
+            <in>gd_gif_out.c</in>
+            <in>gd_intern.h</in>
+            <in>gd_io.c</in>
+            <in>gd_io.h</in>
+            <in>gd_io_dp.c</in>
+            <in>gd_io_file.c</in>
+            <in>gd_io_ss.c</in>
+            <in>gd_jpeg.c</in>
+            <in>gd_pixelate.c</in>
+            <in>gd_png.c</in>
+            <in>gd_rotate.c</in>
+            <in>gd_security.c</in>
+            <in>gd_ss.c</in>
+            <in>gd_topal.c</in>
+            <in>gd_wbmp.c</in>
+            <in>gd_webp.c</in>
+            <in>gdcache.c</in>
+            <in>gdcache.h</in>
+            <in>gddemo.c</in>
+            <in>gdfontg.c</in>
+            <in>gdfontg.h</in>
+            <in>gdfontl.c</in>
+            <in>gdfontl.h</in>
+            <in>gdfontmb.c</in>
+            <in>gdfontmb.h</in>
+            <in>gdfonts.c</in>
+            <in>gdfonts.h</in>
+            <in>gdfontt.c</in>
+            <in>gdfontt.h</in>
+            <in>gdft.c</in>
+            <in>gdhelpers.c</in>
+            <in>gdhelpers.h</in>
+            <in>gdkanji.c</in>
+            <in>gdparttopng.c</in>
+            <in>gdtables.c</in>
+            <in>gdtest.c</in>
+            <in>gdtestft.c</in>
+            <in>gdtopng.c</in>
+            <in>gdxpm.c</in>
+            <in>jisx0208.h</in>
+            <in>mathmake.c</in>
+            <in>pngtogd.c</in>
+            <in>pngtogd2.c</in>
+            <in>testac.c</in>
+            <in>wbmp.c</in>
+            <in>wbmp.h</in>
+            <in>webpimg.c</in>
+            <in>webpimg.h</in>
+            <in>webpng.c</in>
+            <in>xbm.c</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>gd.c</in>
+          <in>gd_ctx.c</in>
+          <in>gdcache.c</in>
+          <in>gdcache.h</in>
+          <in>php_gd.h</in>
+        </df>
+        <df name="gettext">
+          <df name="tests">
+            <df name="locale">
+              <df name="en">
+                <df name="LC_CTYPE">
+                </df>
+                <df name="LC_MESSAGES">
+                </df>
+              </df>
+              <df name="fi">
+                <df name="LC_MESSAGES">
+                </df>
+              </df>
+            </df>
+          </df>
+          <in>gettext.c</in>
+          <in>php_gettext.h</in>
+        </df>
+        <df name="gmp">
+          <df name="tests">
+          </df>
+          <in>gmp.c</in>
+          <in>php_gmp.h</in>
+        </df>
+        <df name="hash">
+          <df name="tests">
+          </df>
+          <in>hash.c</in>
+          <in>hash_adler32.c</in>
+          <in>hash_crc32.c</in>
+          <in>hash_fnv.c</in>
+          <in>hash_gost.c</in>
+          <in>hash_haval.c</in>
+          <in>hash_joaat.c</in>
+          <in>hash_md.c</in>
+          <in>hash_ripemd.c</in>
+          <in>hash_sha.c</in>
+          <in>hash_snefru.c</in>
+          <in>hash_tiger.c</in>
+          <in>hash_whirlpool.c</in>
+          <in>php_hash.h</in>
+          <in>php_hash_adler32.h</in>
+          <in>php_hash_crc32.h</in>
+          <in>php_hash_crc32_tables.h</in>
+          <in>php_hash_fnv.h</in>
+          <in>php_hash_gost.h</in>
+          <in>php_hash_gost_tables.h</in>
+          <in>php_hash_haval.h</in>
+          <in>php_hash_joaat.h</in>
+          <in>php_hash_md.h</in>
+          <in>php_hash_ripemd.h</in>
+          <in>php_hash_sha.h</in>
+          <in>php_hash_snefru.h</in>
+          <in>php_hash_snefru_tables.h</in>
+          <in>php_hash_tiger.h</in>
+          <in>php_hash_tiger_tables.h</in>
+          <in>php_hash_types.h</in>
+          <in>php_hash_whirlpool.h</in>
+          <in>php_hash_whirlpool_tables.h</in>
+        </df>
+        <df name="iconv">
+          <df name="tests">
+          </df>
+          <in>iconv.c</in>
+          <in>php_have_bsd_iconv.h</in>
+          <in>php_have_glibc_iconv.h</in>
+          <in>php_have_ibm_iconv.h</in>
+          <in>php_have_iconv.h</in>
+          <in>php_have_libiconv.h</in>
+          <in>php_iconv.h</in>
+          <in>php_iconv_aliased_libiconv.h</in>
+          <in>php_iconv_supports_errno.h</in>
+          <in>php_php_iconv_h_path.h</in>
+          <in>php_php_iconv_impl.h</in>
+        </df>
+        <df name="imap">
+          <df name="tests">
+          </df>
+          <in>php_imap.c</in>
+          <in>php_imap.h</in>
+        </df>
+        <df name="interbase">
+          <df name="tests">
+          </df>
+          <in>ibase_blobs.c</in>
+          <in>ibase_events.c</in>
+          <in>ibase_query.c</in>
+          <in>ibase_service.c</in>
+          <in>interbase.c</in>
+          <in>php_ibase_includes.h</in>
+          <in>php_ibase_udf.c</in>
+          <in>php_interbase.h</in>
+        </df>
+        <df name="intl">
+          <df name="collator">
+            <in>collator.c</in>
+            <in>collator.h</in>
+            <in>collator_attr.c</in>
+            <in>collator_attr.h</in>
+            <in>collator_class.c</in>
+            <in>collator_class.h</in>
+            <in>collator_compare.c</in>
+            <in>collator_compare.h</in>
+            <in>collator_convert.c</in>
+            <in>collator_convert.h</in>
+            <in>collator_create.c</in>
+            <in>collator_create.h</in>
+            <in>collator_error.c</in>
+            <in>collator_error.h</in>
+            <in>collator_is_numeric.c</in>
+            <in>collator_is_numeric.h</in>
+            <in>collator_locale.c</in>
+            <in>collator_locale.h</in>
+            <in>collator_sort.c</in>
+            <in>collator_sort.h</in>
+          </df>
+          <df name="common">
+            <in>common_error.c</in>
+            <in>common_error.h</in>
+          </df>
+          <df name="dateformat">
+            <in>dateformat.c</in>
+            <in>dateformat.h</in>
+            <in>dateformat_attr.c</in>
+            <in>dateformat_attr.h</in>
+            <in>dateformat_class.c</in>
+            <in>dateformat_class.h</in>
+            <in>dateformat_data.c</in>
+            <in>dateformat_data.h</in>
+            <in>dateformat_format.c</in>
+            <in>dateformat_format.h</in>
+            <in>dateformat_parse.c</in>
+            <in>dateformat_parse.h</in>
+          </df>
+          <df name="doc">
+          </df>
+          <df name="formatter">
+            <in>formatter.c</in>
+            <in>formatter.h</in>
+            <in>formatter_attr.c</in>
+            <in>formatter_attr.h</in>
+            <in>formatter_class.c</in>
+            <in>formatter_class.h</in>
+            <in>formatter_data.c</in>
+            <in>formatter_data.h</in>
+            <in>formatter_format.c</in>
+            <in>formatter_format.h</in>
+            <in>formatter_main.c</in>
+            <in>formatter_main.h</in>
+            <in>formatter_parse.c</in>
+            <in>formatter_parse.h</in>
+          </df>
+          <df name="grapheme">
+            <in>grapheme.h</in>
+            <in>grapheme_string.c</in>
+            <in>grapheme_util.c</in>
+            <in>grapheme_util.h</in>
+          </df>
+          <df name="idn">
+            <in>idn.c</in>
+            <in>idn.h</in>
+          </df>
+          <df name="locale">
+            <in>locale.c</in>
+            <in>locale.h</in>
+            <in>locale_class.c</in>
+            <in>locale_class.h</in>
+            <in>locale_methods.c</in>
+            <in>locale_methods.h</in>
+          </df>
+          <df name="msgformat">
+            <in>msgformat.c</in>
+            <in>msgformat.h</in>
+            <in>msgformat_attr.c</in>
+            <in>msgformat_attr.h</in>
+            <in>msgformat_class.c</in>
+            <in>msgformat_class.h</in>
+            <in>msgformat_data.c</in>
+            <in>msgformat_data.h</in>
+            <in>msgformat_format.c</in>
+            <in>msgformat_format.h</in>
+            <in>msgformat_helpers.cpp</in>
+            <in>msgformat_helpers.h</in>
+            <in>msgformat_parse.c</in>
+            <in>msgformat_parse.h</in>
+          </df>
+          <df name="normalizer">
+            <in>normalizer.c</in>
+            <in>normalizer.h</in>
+            <in>normalizer_class.c</in>
+            <in>normalizer_class.h</in>
+            <in>normalizer_normalize.c</in>
+            <in>normalizer_normalize.h</in>
+          </df>
+          <df name="resourcebundle">
+            <in>resourcebundle.c</in>
+            <in>resourcebundle.h</in>
+            <in>resourcebundle_class.c</in>
+            <in>resourcebundle_class.h</in>
+            <in>resourcebundle_iterator.c</in>
+            <in>resourcebundle_iterator.h</in>
+          </df>
+          <df name="spoofchecker">
+            <in>spoofchecker.c</in>
+            <in>spoofchecker.h</in>
+            <in>spoofchecker_class.c</in>
+            <in>spoofchecker_class.h</in>
+            <in>spoofchecker_create.c</in>
+            <in>spoofchecker_create.h</in>
+            <in>spoofchecker_main.c</in>
+            <in>spoofchecker_main.h</in>
+          </df>
+          <df name="tests">
+            <df name="_files">
+              <df name="resourcebundle">
+              </df>
+            </df>
+          </df>
+          <df name="transliterator">
+            <in>transliterator.c</in>
+            <in>transliterator.h</in>
+            <in>transliterator_class.c</in>
+            <in>transliterator_class.h</in>
+            <in>transliterator_methods.c</in>
+            <in>transliterator_methods.h</in>
+          </df>
+          <in>intl_common.h</in>
+          <in>intl_convert.c</in>
+          <in>intl_convert.h</in>
+          <in>intl_data.h</in>
+          <in>intl_error.c</in>
+          <in>intl_error.h</in>
+          <in>php_intl.c</in>
+          <in>php_intl.h</in>
+        </df>
+        <df name="json">
+          <df name="tests">
+          </df>
+          <in>JSON_parser.c</in>
+          <in>JSON_parser.h</in>
+          <in>json.c</in>
+          <in>php_json.h</in>
+          <in>utf8_decode.c</in>
+          <in>utf8_decode.h</in>
+          <in>utf8_to_utf16.c</in>
+          <in>utf8_to_utf16.h</in>
+        </df>
+        <df name="ldap">
+          <df name="tests">
+          </df>
+          <in>ldap.c</in>
+          <in>php_ldap.h</in>
+        </df>
+        <df name="libxml">
+          <df name="tests">
+          </df>
+          <in>libxml.c</in>
+          <in>php_libxml.h</in>
+        </df>
+        <df name="mbstring">
+          <df name="libmbfl">
+            <df name="filters">
+              <in>cp932_table.h</in>
+              <in>emoji2uni.h</in>
+              <in>html_entities.c</in>
+              <in>html_entities.h</in>
+              <in>mbfilter_7bit.c</in>
+              <in>mbfilter_7bit.h</in>
+              <in>mbfilter_armscii8.c</in>
+              <in>mbfilter_armscii8.h</in>
+              <in>mbfilter_ascii.c</in>
+              <in>mbfilter_ascii.h</in>
+              <in>mbfilter_base64.c</in>
+              <in>mbfilter_base64.h</in>
+              <in>mbfilter_big5.c</in>
+              <in>mbfilter_big5.h</in>
+              <in>mbfilter_byte2.c</in>
+              <in>mbfilter_byte2.h</in>
+              <in>mbfilter_byte4.c</in>
+              <in>mbfilter_byte4.h</in>
+              <in>mbfilter_cp1251.c</in>
+              <in>mbfilter_cp1251.h</in>
+              <in>mbfilter_cp1252.c</in>
+              <in>mbfilter_cp1252.h</in>
+              <in>mbfilter_cp1254.c</in>
+              <in>mbfilter_cp1254.h</in>
+              <in>mbfilter_cp5022x.c</in>
+              <in>mbfilter_cp5022x.h</in>
+              <in>mbfilter_cp51932.c</in>
+              <in>mbfilter_cp51932.h</in>
+              <in>mbfilter_cp850.c</in>
+              <in>mbfilter_cp850.h</in>
+              <in>mbfilter_cp866.c</in>
+              <in>mbfilter_cp866.h</in>
+              <in>mbfilter_cp932.c</in>
+              <in>mbfilter_cp932.h</in>
+              <in>mbfilter_cp936.c</in>
+              <in>mbfilter_cp936.h</in>
+              <in>mbfilter_euc_cn.c</in>
+              <in>mbfilter_euc_cn.h</in>
+              <in>mbfilter_euc_jp.c</in>
+              <in>mbfilter_euc_jp.h</in>
+              <in>mbfilter_euc_jp_2004.c</in>
+              <in>mbfilter_euc_jp_2004.h</in>
+              <in>mbfilter_euc_jp_win.c</in>
+              <in>mbfilter_euc_jp_win.h</in>
+              <in>mbfilter_euc_kr.c</in>
+              <in>mbfilter_euc_kr.h</in>
+              <in>mbfilter_euc_tw.c</in>
+              <in>mbfilter_euc_tw.h</in>
+              <in>mbfilter_gb18030.c</in>
+              <in>mbfilter_gb18030.h</in>
+              <in>mbfilter_htmlent.c</in>
+              <in>mbfilter_htmlent.h</in>
+              <in>mbfilter_hz.c</in>
+              <in>mbfilter_hz.h</in>
+              <in>mbfilter_iso2022_jp_ms.c</in>
+              <in>mbfilter_iso2022_jp_ms.h</in>
+              <in>mbfilter_iso2022_kr.c</in>
+              <in>mbfilter_iso2022_kr.h</in>
+              <in>mbfilter_iso2022jp_2004.c</in>
+              <in>mbfilter_iso2022jp_2004.h</in>
+              <in>mbfilter_iso2022jp_mobile.c</in>
+              <in>mbfilter_iso2022jp_mobile.h</in>
+              <in>mbfilter_iso8859_1.c</in>
+              <in>mbfilter_iso8859_1.h</in>
+              <in>mbfilter_iso8859_10.c</in>
+              <in>mbfilter_iso8859_10.h</in>
+              <in>mbfilter_iso8859_13.c</in>
+              <in>mbfilter_iso8859_13.h</in>
+              <in>mbfilter_iso8859_14.c</in>
+              <in>mbfilter_iso8859_14.h</in>
+              <in>mbfilter_iso8859_15.c</in>
+              <in>mbfilter_iso8859_15.h</in>
+              <in>mbfilter_iso8859_16.c</in>
+              <in>mbfilter_iso8859_16.h</in>
+              <in>mbfilter_iso8859_2.c</in>
+              <in>mbfilter_iso8859_2.h</in>
+              <in>mbfilter_iso8859_3.c</in>
+              <in>mbfilter_iso8859_3.h</in>
+              <in>mbfilter_iso8859_4.c</in>
+              <in>mbfilter_iso8859_4.h</in>
+              <in>mbfilter_iso8859_5.c</in>
+              <in>mbfilter_iso8859_5.h</in>
+              <in>mbfilter_iso8859_6.c</in>
+              <in>mbfilter_iso8859_6.h</in>
+              <in>mbfilter_iso8859_7.c</in>
+              <in>mbfilter_iso8859_7.h</in>
+              <in>mbfilter_iso8859_8.c</in>
+              <in>mbfilter_iso8859_8.h</in>
+              <in>mbfilter_iso8859_9.c</in>
+              <in>mbfilter_iso8859_9.h</in>
+              <in>mbfilter_jis.c</in>
+              <in>mbfilter_jis.h</in>
+              <in>mbfilter_koi8r.c</in>
+              <in>mbfilter_koi8r.h</in>
+              <in>mbfilter_koi8u.c</in>
+              <in>mbfilter_koi8u.h</in>
+              <in>mbfilter_qprint.c</in>
+              <in>mbfilter_qprint.h</in>
+              <in>mbfilter_sjis.c</in>
+              <in>mbfilter_sjis.h</in>
+              <in>mbfilter_sjis_2004.c</in>
+              <in>mbfilter_sjis_2004.h</in>
+              <in>mbfilter_sjis_mac.c</in>
+              <in>mbfilter_sjis_mac.h</in>
+              <in>mbfilter_sjis_mobile.c</in>
+              <in>mbfilter_sjis_mobile.h</in>
+              <in>mbfilter_sjis_open.c</in>
+              <in>mbfilter_sjis_open.h</in>
+              <in>mbfilter_tl_jisx0201_jisx0208.c</in>
+              <in>mbfilter_tl_jisx0201_jisx0208.h</in>
+              <in>mbfilter_ucs2.c</in>
+              <in>mbfilter_ucs2.h</in>
+              <in>mbfilter_ucs4.c</in>
+              <in>mbfilter_ucs4.h</in>
+              <in>mbfilter_uhc.c</in>
+              <in>mbfilter_uhc.h</in>
+              <in>mbfilter_utf16.c</in>
+              <in>mbfilter_utf16.h</in>
+              <in>mbfilter_utf32.c</in>
+              <in>mbfilter_utf32.h</in>
+              <in>mbfilter_utf7.c</in>
+              <in>mbfilter_utf7.h</in>
+              <in>mbfilter_utf7imap.c</in>
+              <in>mbfilter_utf7imap.h</in>
+              <in>mbfilter_utf8.c</in>
+              <in>mbfilter_utf8.h</in>
+              <in>mbfilter_utf8_mobile.c</in>
+              <in>mbfilter_utf8_mobile.h</in>
+              <in>mbfilter_uuencode.c</in>
+              <in>mbfilter_uuencode.h</in>
+              <in>sjis_mac2uni.h</in>
+              <in>translit_kana_jisx0201_jisx0208.h</in>
+              <in>unicode_prop.h</in>
+              <in>unicode_table_armscii8.h</in>
+              <in>unicode_table_big5.h</in>
+              <in>unicode_table_cns11643.h</in>
+              <in>unicode_table_cp1251.h</in>
+              <in>unicode_table_cp1252.h</in>
+              <in>unicode_table_cp1254.h</in>
+              <in>unicode_table_cp850.h</in>
+              <in>unicode_table_cp866.h</in>
+              <in>unicode_table_cp932_ext.h</in>
+              <in>unicode_table_cp936.h</in>
+              <in>unicode_table_gb18030.h</in>
+              <in>unicode_table_iso8859_10.h</in>
+              <in>unicode_table_iso8859_13.h</in>
+              <in>unicode_table_iso8859_14.h</in>
+              <in>unicode_table_iso8859_15.h</in>
+              <in>unicode_table_iso8859_16.h</in>
+              <in>unicode_table_iso8859_2.h</in>
+              <in>unicode_table_iso8859_3.h</in>
+              <in>unicode_table_iso8859_4.h</in>
+              <in>unicode_table_iso8859_5.h</in>
+              <in>unicode_table_iso8859_6.h</in>
+              <in>unicode_table_iso8859_7.h</in>
+              <in>unicode_table_iso8859_8.h</in>
+              <in>unicode_table_iso8859_9.h</in>
+              <in>unicode_table_jis.h</in>
+              <in>unicode_table_jis2004.h</in>
+              <in>unicode_table_koi8r.h</in>
+              <in>unicode_table_koi8u.h</in>
+              <in>unicode_table_uhc.h</in>
+            </df>
+            <df name="mbfl">
+              <in>eaw_table.h</in>
+              <in>mbfilter.c</in>
+              <in>mbfilter.h</in>
+              <in>mbfilter_8bit.c</in>
+              <in>mbfilter_8bit.h</in>
+              <in>mbfilter_pass.c</in>
+              <in>mbfilter_pass.h</in>
+              <in>mbfilter_wchar.c</in>
+              <in>mbfilter_wchar.h</in>
+              <in>mbfl_allocators.c</in>
+              <in>mbfl_allocators.h</in>
+              <in>mbfl_consts.h</in>
+              <in>mbfl_convert.c</in>
+              <in>mbfl_convert.h</in>
+              <in>mbfl_defs.h</in>
+              <in>mbfl_encoding.c</in>
+              <in>mbfl_encoding.h</in>
+              <in>mbfl_filter_output.c</in>
+              <in>mbfl_filter_output.h</in>
+              <in>mbfl_ident.c</in>
+              <in>mbfl_ident.h</in>
+              <in>mbfl_language.c</in>
+              <in>mbfl_language.h</in>
+              <in>mbfl_memory_device.c</in>
+              <in>mbfl_memory_device.h</in>
+              <in>mbfl_string.c</in>
+              <in>mbfl_string.h</in>
+            </df>
+            <df name="nls">
+              <in>nls_de.c</in>
+              <in>nls_de.h</in>
+              <in>nls_en.c</in>
+              <in>nls_en.h</in>
+              <in>nls_hy.c</in>
+              <in>nls_hy.h</in>
+              <in>nls_ja.c</in>
+              <in>nls_ja.h</in>
+              <in>nls_kr.c</in>
+              <in>nls_kr.h</in>
+              <in>nls_neutral.c</in>
+              <in>nls_neutral.h</in>
+              <in>nls_ru.c</in>
+              <in>nls_ru.h</in>
+              <in>nls_tr.c</in>
+              <in>nls_tr.h</in>
+              <in>nls_ua.c</in>
+              <in>nls_ua.h</in>
+              <in>nls_uni.c</in>
+              <in>nls_uni.h</in>
+              <in>nls_zh.c</in>
+              <in>nls_zh.h</in>
+            </df>
+            <df name="tests">
+              <df name="conv_encoding.tests">
+                <in>gen_exp.c</in>
+              </df>
+              <df name="conv_kana.tests">
+              </df>
+              <df name="strcut.tests">
+              </df>
+              <df name="strwidth.tests">
+              </df>
+              <in>conv_encoding.c</in>
+              <in>conv_kana.c</in>
+              <in>emoji.c</in>
+              <in>sample.c</in>
+              <in>strcut.c</in>
+              <in>strwidth.c</in>
+            </df>
+          </df>
+          <df name="oniguruma">
+            <df name="doc">
+            </df>
+            <df name="enc">
+              <in>ascii.c</in>
+              <in>big5.c</in>
+              <in>cp1251.c</in>
+              <in>euc_jp.c</in>
+              <in>euc_kr.c</in>
+              <in>euc_tw.c</in>
+              <in>gb18030.c</in>
+              <in>iso8859_1.c</in>
+              <in>iso8859_10.c</in>
+              <in>iso8859_11.c</in>
+              <in>iso8859_13.c</in>
+              <in>iso8859_14.c</in>
+              <in>iso8859_15.c</in>
+              <in>iso8859_16.c</in>
+              <in>iso8859_2.c</in>
+              <in>iso8859_3.c</in>
+              <in>iso8859_4.c</in>
+              <in>iso8859_5.c</in>
+              <in>iso8859_6.c</in>
+              <in>iso8859_7.c</in>
+              <in>iso8859_8.c</in>
+              <in>iso8859_9.c</in>
+              <in>koi8.c</in>
+              <in>koi8_r.c</in>
+              <in>mktable.c</in>
+              <in>sjis.c</in>
+              <in>unicode.c</in>
+              <in>utf16_be.c</in>
+              <in>utf16_le.c</in>
+              <in>utf32_be.c</in>
+              <in>utf32_le.c</in>
+              <in>utf8.c</in>
+            </df>
+            <df name="win32">
+              <in>config.h</in>
+              <in>testc.c</in>
+            </df>
+            <in>onigcmpt200.h</in>
+            <in>oniggnu.h</in>
+            <in>onigposix.h</in>
+            <in>oniguruma.h</in>
+            <in>regcomp.c</in>
+            <in>regenc.c</in>
+            <in>regenc.h</in>
+            <in>regerror.c</in>
+            <in>regexec.c</in>
+            <in>regext.c</in>
+            <in>reggnu.c</in>
+            <in>regint.h</in>
+            <in>regparse.c</in>
+            <in>regparse.h</in>
+            <in>regposerr.c</in>
+            <in>regposix.c</in>
+            <in>regsyntax.c</in>
+            <in>regtrav.c</in>
+            <in>regversion.c</in>
+            <in>st.c</in>
+            <in>st.h</in>
+            <in>testc.c</in>
+            <in>testu.c</in>
+          </df>
+          <df name="tests">
+          </df>
+          <df name="ucgendat">
+            <in>ucgendat.c</in>
+          </df>
+          <in>mb_gpc.c</in>
+          <in>mb_gpc.h</in>
+          <in>mbstring.c</in>
+          <in>mbstring.h</in>
+          <in>php_mbregex.c</in>
+          <in>php_mbregex.h</in>
+          <in>php_onig_compat.h</in>
+          <in>php_unicode.c</in>
+          <in>php_unicode.h</in>
+          <in>unicode_data.h</in>
+        </df>
+        <df name="mcrypt">
+          <df name="tests">
+          </df>
+          <in>mcrypt.c</in>
+          <in>mcrypt_filter.c</in>
+          <in>php_mcrypt.h</in>
+          <in>php_mcrypt_filter.h</in>
+        </df>
+        <df name="mssql">
+          <in>php_mssql.c</in>
+          <in>php_mssql.h</in>
+        </df>
+        <df name="mysql">
+          <df name="tests">
+          </df>
+          <in>mysql_mysqlnd.h</in>
+          <in>php_mysql.c</in>
+          <in>php_mysql.h</in>
+          <in>php_mysql_structs.h</in>
+        </df>
+        <df name="mysqli">
+          <df name="tests">
+          </df>
+          <in>mysqli.c</in>
+          <in>mysqli_api.c</in>
+          <in>mysqli_driver.c</in>
+          <in>mysqli_embedded.c</in>
+          <in>mysqli_exception.c</in>
+          <in>mysqli_fe.c</in>
+          <in>mysqli_fe.h</in>
+          <in>mysqli_libmysql.h</in>
+          <in>mysqli_mysqlnd.h</in>
+          <in>mysqli_nonapi.c</in>
+          <in>mysqli_priv.h</in>
+          <in>mysqli_prop.c</in>
+          <in>mysqli_report.c</in>
+          <in>mysqli_report.h</in>
+          <in>mysqli_result_iterator.c</in>
+          <in>mysqli_warning.c</in>
+          <in>php_mysqli.h</in>
+          <in>php_mysqli_structs.h</in>
+        </df>
+        <df name="mysqlnd">
+          <in>config-win.h</in>
+          <in>mysqlnd.c</in>
+          <in>mysqlnd.h</in>
+          <in>mysqlnd_alloc.c</in>
+          <in>mysqlnd_alloc.h</in>
+          <in>mysqlnd_auth.c</in>
+          <in>mysqlnd_block_alloc.c</in>
+          <in>mysqlnd_block_alloc.h</in>
+          <in>mysqlnd_bt.c</in>
+          <in>mysqlnd_charset.c</in>
+          <in>mysqlnd_charset.h</in>
+          <in>mysqlnd_debug.c</in>
+          <in>mysqlnd_debug.h</in>
+          <in>mysqlnd_driver.c</in>
+          <in>mysqlnd_enum_n_def.h</in>
+          <in>mysqlnd_ext_plugin.c</in>
+          <in>mysqlnd_ext_plugin.h</in>
+          <in>mysqlnd_libmysql_compat.h</in>
+          <in>mysqlnd_loaddata.c</in>
+          <in>mysqlnd_net.c</in>
+          <in>mysqlnd_net.h</in>
+          <in>mysqlnd_plugin.c</in>
+          <in>mysqlnd_portability.h</in>
+          <in>mysqlnd_priv.h</in>
+          <in>mysqlnd_ps.c</in>
+          <in>mysqlnd_ps_codec.c</in>
+          <in>mysqlnd_result.c</in>
+          <in>mysqlnd_result.h</in>
+          <in>mysqlnd_result_meta.c</in>
+          <in>mysqlnd_result_meta.h</in>
+          <in>mysqlnd_reverse_api.c</in>
+          <in>mysqlnd_reverse_api.h</in>
+          <in>mysqlnd_statistics.c</in>
+          <in>mysqlnd_statistics.h</in>
+          <in>mysqlnd_structs.h</in>
+          <in>mysqlnd_wireprotocol.c</in>
+          <in>mysqlnd_wireprotocol.h</in>
+          <in>php_mysqlnd.c</in>
+          <in>php_mysqlnd.h</in>
+        </df>
+        <df name="oci8">
+          <df name="tests">
+          </df>
+          <in>oci8.c</in>
+          <in>oci8_collection.c</in>
+          <in>oci8_interface.c</in>
+          <in>oci8_lob.c</in>
+          <in>oci8_statement.c</in>
+          <in>php_oci8.h</in>
+          <in>php_oci8_int.h</in>
+        </df>
+        <df name="odbc">
+          <df name="tests">
+          </df>
+          <in>birdstep.c</in>
+          <in>php_birdstep.h</in>
+          <in>php_odbc.c</in>
+          <in>php_odbc.h</in>
+          <in>php_odbc_includes.h</in>
+        </df>
+        <df name="openssl">
+          <df name="tests">
+          </df>
+          <in>openssl.c</in>
+          <in>php_openssl.h</in>
+          <in>xp_ssl.c</in>
+        </df>
+        <df name="pcntl">
+          <df name="tests">
+          </df>
+          <in>pcntl.c</in>
+          <in>php_pcntl.h</in>
+          <in>php_signal.c</in>
+          <in>php_signal.h</in>
+        </df>
+        <df name="pcre">
+          <df name="pcrelib">
+            <df name="doc">
+            </df>
+            <df name="testdata">
+            </df>
+            <in>config.h</in>
+            <in>dftables.c</in>
+            <in>pcre.h</in>
+            <in>pcre_chartables.c</in>
+            <in>pcre_compile.c</in>
+            <in>pcre_config.c</in>
+            <in>pcre_exec.c</in>
+            <in>pcre_fullinfo.c</in>
+            <in>pcre_get.c</in>
+            <in>pcre_globals.c</in>
+            <in>pcre_info.c</in>
+            <in>pcre_internal.h</in>
+            <in>pcre_maketables.c</in>
+            <in>pcre_newline.c</in>
+            <in>pcre_ord2utf8.c</in>
+            <in>pcre_refcount.c</in>
+            <in>pcre_study.c</in>
+            <in>pcre_tables.c</in>
+            <in>pcre_try_flipped.c</in>
+            <in>pcre_ucd.c</in>
+            <in>pcre_valid_utf8.c</in>
+            <in>pcre_version.c</in>
+            <in>pcre_xclass.c</in>
+            <in>pcredemo.c</in>
+            <in>pcreposix.c</in>
+            <in>pcreposix.h</in>
+            <in>ucp.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_pcre.c</in>
+          <in>php_pcre.h</in>
+        </df>
+        <df name="pdo">
+          <df name="tests">
+          </df>
+          <in>pdo.c</in>
+          <in>pdo_dbh.c</in>
+          <in>pdo_sql_parser.c</in>
+          <in>pdo_sqlstate.c</in>
+          <in>pdo_stmt.c</in>
+          <in>php_pdo.h</in>
+          <in>php_pdo_driver.h</in>
+          <in>php_pdo_int.h</in>
+        </df>
+        <df name="pdo_dblib">
+          <df name="tests">
+          </df>
+          <in>dblib_driver.c</in>
+          <in>dblib_stmt.c</in>
+          <in>pdo_dblib.c</in>
+          <in>php_pdo_dblib.h</in>
+          <in>php_pdo_dblib_int.h</in>
+        </df>
+        <df name="pdo_firebird">
+          <df name="tests">
+          </df>
+          <in>firebird_driver.c</in>
+          <in>firebird_statement.c</in>
+          <in>pdo_firebird.c</in>
+          <in>php_pdo_firebird.h</in>
+          <in>php_pdo_firebird_int.h</in>
+        </df>
+        <df name="pdo_mysql">
+          <df name="tests">
+          </df>
+          <in>mysql_driver.c</in>
+          <in>mysql_statement.c</in>
+          <in>pdo_mysql.c</in>
+          <in>php_pdo_mysql.h</in>
+          <in>php_pdo_mysql_int.h</in>
+          <in>php_pdo_mysql_sqlstate.h</in>
+        </df>
+        <df name="pdo_oci">
+          <df name="tests">
+          </df>
+          <in>oci_driver.c</in>
+          <in>oci_statement.c</in>
+          <in>pdo_oci.c</in>
+          <in>php_pdo_oci.h</in>
+          <in>php_pdo_oci_int.h</in>
+        </df>
+        <df name="pdo_odbc">
+          <df name="tests">
+          </df>
+          <in>odbc_driver.c</in>
+          <in>odbc_stmt.c</in>
+          <in>pdo_odbc.c</in>
+          <in>php_pdo_odbc.h</in>
+          <in>php_pdo_odbc_int.h</in>
+        </df>
+        <df name="pdo_pgsql">
+          <df name="tests">
+          </df>
+          <in>pdo_pgsql.c</in>
+          <in>pgsql_driver.c</in>
+          <in>pgsql_statement.c</in>
+          <in>php_pdo_pgsql.h</in>
+          <in>php_pdo_pgsql_int.h</in>
+        </df>
+        <df name="pdo_sqlite">
+          <df name="tests">
+          </df>
+          <in>pdo_sqlite.c</in>
+          <in>php_pdo_sqlite.h</in>
+          <in>php_pdo_sqlite_int.h</in>
+          <in>sqlite_driver.c</in>
+          <in>sqlite_statement.c</in>
+        </df>
+        <df name="pgsql">
+          <df name="tests">
+          </df>
+          <in>pgsql.c</in>
+          <in>php_pgsql.h</in>
+        </df>
+        <df name="phar">
+          <df name="phar">
+          </df>
+          <df name="tests">
+            <df name="bug53872">
+            </df>
+            <df name="cache_list">
+              <df name="files">
+              </df>
+            </df>
+            <df name="files">
+            </df>
+            <df name="tar">
+              <df name="files">
+              </df>
+            </df>
+            <df name="zip">
+              <df name="files">
+              </df>
+            </df>
+          </df>
+          <in>dirstream.c</in>
+          <in>dirstream.h</in>
+          <in>func_interceptors.c</in>
+          <in>func_interceptors.h</in>
+          <in>phar.c</in>
+          <in>phar_internal.h</in>
+          <in>phar_object.c</in>
+          <in>phar_path_check.c</in>
+          <in>pharzip.h</in>
+          <in>php_phar.h</in>
+          <in>stream.c</in>
+          <in>stream.h</in>
+          <in>stub.h</in>
+          <in>tar.c</in>
+          <in>tar.h</in>
+          <in>util.c</in>
+          <in>zip.c</in>
+        </df>
+        <df name="posix">
+          <df name="tests">
+          </df>
+          <in>php_posix.h</in>
+          <in>posix.c</in>
+        </df>
+        <df name="pspell">
+          <df name="tests">
+          </df>
+          <in>php_pspell.h</in>
+          <in>pspell.c</in>
+        </df>
+        <df name="readline">
+          <df name="tests">
+          </df>
+          <in>php_readline.h</in>
+          <in>readline.c</in>
+          <in>readline_cli.c</in>
+          <in>readline_cli.h</in>
+        </df>
+        <df name="recode">
+          <in>php_recode.h</in>
+          <in>recode.c</in>
+        </df>
+        <df name="reflection">
+          <df name="tests">
+          </df>
+          <in>php_reflection.c</in>
+          <in>php_reflection.h</in>
+        </df>
+        <df name="session">
+          <df name="tests">
+          </df>
+          <in>mod_files.c</in>
+          <in>mod_files.h</in>
+          <in>mod_mm.c</in>
+          <in>mod_mm.h</in>
+          <in>mod_user.c</in>
+          <in>mod_user.h</in>
+          <in>mod_user_class.c</in>
+          <in>php_session.h</in>
+          <in>session.c</in>
+        </df>
+        <df name="shmop">
+          <df name="tests">
+          </df>
+          <in>php_shmop.h</in>
+          <in>shmop.c</in>
+        </df>
+        <df name="simplexml">
+          <df name="examples">
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_simplexml.h</in>
+          <in>php_simplexml_exports.h</in>
+          <in>simplexml.c</in>
+          <in>sxe.c</in>
+          <in>sxe.h</in>
+        </df>
+        <df name="skeleton">
+          <df name="tests">
+          </df>
+          <in>php_skeleton.h</in>
+          <in>skeleton.c</in>
+        </df>
+        <df name="snmp">
+          <df name="tests">
+          </df>
+          <in>php_snmp.h</in>
+          <in>snmp.c</in>
+        </df>
+        <df name="soap">
+          <df name="interop">
+          </df>
+          <df name="tests">
+            <df name="bugs">
+            </df>
+            <df name="interop">
+              <df name="Round2">
+                <df name="Base">
+                </df>
+                <df name="GroupB">
+                </df>
+              </df>
+              <df name="Round3">
+                <df name="GroupD">
+                  <df name="imported">
+                  </df>
+                </df>
+                <df name="GroupE">
+                </df>
+                <df name="GroupF">
+                </df>
+              </df>
+              <df name="Round4">
+                <df name="GroupG">
+                </df>
+                <df name="GroupH">
+                </df>
+                <df name="GroupI">
+                </df>
+              </df>
+            </df>
+            <df name="schema">
+            </df>
+            <df name="soap12">
+            </df>
+          </df>
+          <in>php_encoding.c</in>
+          <in>php_encoding.h</in>
+          <in>php_http.c</in>
+          <in>php_http.h</in>
+          <in>php_packet_soap.c</in>
+          <in>php_packet_soap.h</in>
+          <in>php_schema.c</in>
+          <in>php_schema.h</in>
+          <in>php_sdl.c</in>
+          <in>php_sdl.h</in>
+          <in>php_soap.h</in>
+          <in>php_xml.c</in>
+          <in>php_xml.h</in>
+          <in>soap.c</in>
+        </df>
+        <df name="sockets">
+          <df name="tests">
+          </df>
+          <in>multicast.c</in>
+          <in>multicast.h</in>
+          <in>php_sockets.h</in>
+          <in>sockets.c</in>
+          <in>unix_socket_constants.h</in>
+          <in>win32_socket_constants.h</in>
+        </df>
+        <df name="spl">
+          <df name="examples">
+            <df name="tests">
+            </df>
+          </df>
+          <df name="internal">
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_spl.c</in>
+          <in>php_spl.h</in>
+          <in>spl_array.c</in>
+          <in>spl_array.h</in>
+          <in>spl_directory.c</in>
+          <in>spl_directory.h</in>
+          <in>spl_dllist.c</in>
+          <in>spl_dllist.h</in>
+          <in>spl_engine.c</in>
+          <in>spl_engine.h</in>
+          <in>spl_exceptions.c</in>
+          <in>spl_exceptions.h</in>
+          <in>spl_fixedarray.c</in>
+          <in>spl_fixedarray.h</in>
+          <in>spl_functions.c</in>
+          <in>spl_functions.h</in>
+          <in>spl_heap.c</in>
+          <in>spl_heap.h</in>
+          <in>spl_iterators.c</in>
+          <in>spl_iterators.h</in>
+          <in>spl_observer.c</in>
+          <in>spl_observer.h</in>
+        </df>
+        <df name="sqlite3">
+          <df name="libsqlite">
+            <in>sqlite3.c</in>
+            <in>sqlite3.h</in>
+            <in>sqlite3ext.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_sqlite3.h</in>
+          <in>php_sqlite3_structs.h</in>
+          <in>sqlite3.c</in>
+        </df>
+        <df name="standard">
+          <df name="html_tables">
+            <df name="mappings">
+            </df>
+          </df>
+          <df name="tests">
+            <df name="array">
+            </df>
+            <df name="assert">
+            </df>
+            <df name="class_object">
+            </df>
+            <df name="dir">
+            </df>
+            <df name="directory">
+            </df>
+            <df name="file">
+              <df name="windows_acls">
+              </df>
+              <df name="windows_links">
+              </df>
+            </df>
+            <df name="filters">
+            </df>
+            <df name="general_functions">
+            </df>
+            <df name="http">
+            </df>
+            <df name="image">
+            </df>
+            <df name="mail">
+            </df>
+            <df name="math">
+            </df>
+            <df name="misc">
+            </df>
+            <df name="network">
+            </df>
+            <df name="serialize">
+            </df>
+            <df name="streams">
+            </df>
+            <df name="strings">
+            </df>
+            <df name="time">
+            </df>
+            <df name="url">
+            </df>
+            <df name="versioning">
+            </df>
+          </df>
+          <in>array.c</in>
+          <in>assert.c</in>
+          <in>base64.c</in>
+          <in>base64.h</in>
+          <in>basic_functions.c</in>
+          <in>basic_functions.h</in>
+          <in>browscap.c</in>
+          <in>crc32.c</in>
+          <in>crc32.h</in>
+          <in>credits.c</in>
+          <in>credits.h</in>
+          <in>credits_ext.h</in>
+          <in>credits_sapi.h</in>
+          <in>crypt.c</in>
+          <in>crypt_blowfish.c</in>
+          <in>crypt_blowfish.h</in>
+          <in>crypt_freesec.c</in>
+          <in>crypt_freesec.h</in>
+          <in>crypt_sha256.c</in>
+          <in>crypt_sha512.c</in>
+          <in>css.c</in>
+          <in>css.h</in>
+          <in>cyr_convert.c</in>
+          <in>cyr_convert.h</in>
+          <in>datetime.c</in>
+          <in>datetime.h</in>
+          <in>dir.c</in>
+          <in>dl.c</in>
+          <in>dl.h</in>
+          <in>dns.c</in>
+          <in>dns_win32.c</in>
+          <in>exec.c</in>
+          <in>exec.h</in>
+          <in>file.c</in>
+          <in>file.h</in>
+          <in>filestat.c</in>
+          <in>filters.c</in>
+          <in>flock_compat.c</in>
+          <in>flock_compat.h</in>
+          <in>formatted_print.c</in>
+          <in>fsock.c</in>
+          <in>fsock.h</in>
+          <in>ftok.c</in>
+          <in>ftp_fopen_wrapper.c</in>
+          <in>head.c</in>
+          <in>head.h</in>
+          <in>html.c</in>
+          <in>html.h</in>
+          <in>html_tables.h</in>
+          <in>http.c</in>
+          <in>http_fopen_wrapper.c</in>
+          <in>image.c</in>
+          <in>incomplete_class.c</in>
+          <in>info.c</in>
+          <in>info.h</in>
+          <in>iptc.c</in>
+          <in>lcg.c</in>
+          <in>levenshtein.c</in>
+          <in>link.c</in>
+          <in>link_win32.c</in>
+          <in>mail.c</in>
+          <in>math.c</in>
+          <in>md5.c</in>
+          <in>md5.h</in>
+          <in>metaphone.c</in>
+          <in>microtime.c</in>
+          <in>microtime.h</in>
+          <in>pack.c</in>
+          <in>pack.h</in>
+          <in>pageinfo.c</in>
+          <in>pageinfo.h</in>
+          <in>php_array.h</in>
+          <in>php_assert.h</in>
+          <in>php_browscap.h</in>
+          <in>php_crypt.h</in>
+          <in>php_crypt_r.c</in>
+          <in>php_crypt_r.h</in>
+          <in>php_dir.h</in>
+          <in>php_dns.h</in>
+          <in>php_ext_syslog.h</in>
+          <in>php_filestat.h</in>
+          <in>php_fopen_wrapper.c</in>
+          <in>php_fopen_wrappers.h</in>
+          <in>php_ftok.h</in>
+          <in>php_http.h</in>
+          <in>php_image.h</in>
+          <in>php_incomplete_class.h</in>
+          <in>php_iptc.h</in>
+          <in>php_lcg.h</in>
+          <in>php_link.h</in>
+          <in>php_mail.h</in>
+          <in>php_math.h</in>
+          <in>php_metaphone.h</in>
+          <in>php_rand.h</in>
+          <in>php_smart_str.h</in>
+          <in>php_smart_str_public.h</in>
+          <in>php_standard.h</in>
+          <in>php_string.h</in>
+          <in>php_type.h</in>
+          <in>php_uuencode.h</in>
+          <in>php_var.h</in>
+          <in>php_versioning.h</in>
+          <in>proc_open.c</in>
+          <in>proc_open.h</in>
+          <in>quot_print.c</in>
+          <in>quot_print.h</in>
+          <in>rand.c</in>
+          <in>scanf.c</in>
+          <in>scanf.h</in>
+          <in>sha1.c</in>
+          <in>sha1.h</in>
+          <in>soundex.c</in>
+          <in>streamsfuncs.c</in>
+          <in>streamsfuncs.h</in>
+          <in>string.c</in>
+          <in>strnatcmp.c</in>
+          <in>syslog.c</in>
+          <in>type.c</in>
+          <in>uniqid.c</in>
+          <in>uniqid.h</in>
+          <in>url.c</in>
+          <in>url.h</in>
+          <in>url_scanner_ex.c</in>
+          <in>url_scanner_ex.h</in>
+          <in>user_filters.c</in>
+          <in>uuencode.c</in>
+          <in>var.c</in>
+          <in>var_unserializer.c</in>
+          <in>versioning.c</in>
+          <in>winver.h</in>
+        </df>
+        <df name="sybase_ct">
+          <df name="tests">
+          </df>
+          <in>php_sybase_ct.c</in>
+          <in>php_sybase_ct.h</in>
+        </df>
+        <df name="sysvmsg">
+          <df name="tests">
+          </df>
+          <in>php_sysvmsg.h</in>
+          <in>sysvmsg.c</in>
+        </df>
+        <df name="sysvsem">
+          <df name="tests">
+          </df>
+          <in>php_sysvsem.h</in>
+          <in>sysvsem.c</in>
+        </df>
+        <df name="sysvshm">
+          <df name="tests">
+          </df>
+          <in>php_sysvshm.h</in>
+          <in>sysvshm.c</in>
+        </df>
+        <df name="tidy">
+          <df name="examples">
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_tidy.h</in>
+          <in>tidy.c</in>
+        </df>
+        <df name="tokenizer">
+          <df name="tests">
+          </df>
+          <in>php_tokenizer.h</in>
+          <in>tokenizer.c</in>
+          <in>tokenizer_data.c</in>
+        </df>
+        <df name="wddx">
+          <df name="tests">
+          </df>
+          <in>php_wddx.h</in>
+          <in>php_wddx_api.h</in>
+          <in>wddx.c</in>
+        </df>
+        <df name="xml">
+          <df name="tests">
+          </df>
+          <in>compat.c</in>
+          <in>expat_compat.h</in>
+          <in>php_xml.h</in>
+          <in>xml.c</in>
+        </df>
+        <df name="xmlreader">
+          <df name="examples">
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_xmlreader.c</in>
+          <in>php_xmlreader.h</in>
+        </df>
+        <df name="xmlrpc">
+          <df name="libxmlrpc">
+            <in>base64.c</in>
+            <in>base64.h</in>
+            <in>encodings.c</in>
+            <in>encodings.h</in>
+            <in>queue.c</in>
+            <in>queue.h</in>
+            <in>simplestring.c</in>
+            <in>simplestring.h</in>
+            <in>system_methods.c</in>
+            <in>system_methods_private.h</in>
+            <in>xml_element.c</in>
+            <in>xml_element.h</in>
+            <in>xml_to_dandarpc.c</in>
+            <in>xml_to_dandarpc.h</in>
+            <in>xml_to_soap.c</in>
+            <in>xml_to_soap.h</in>
+            <in>xml_to_xmlrpc.c</in>
+            <in>xml_to_xmlrpc.h</in>
+            <in>xmlrpc.c</in>
+            <in>xmlrpc.h</in>
+            <in>xmlrpc_introspection.c</in>
+            <in>xmlrpc_introspection.h</in>
+            <in>xmlrpc_introspection_private.h</in>
+            <in>xmlrpc_private.h</in>
+            <in>xmlrpc_win32.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_xmlrpc.h</in>
+          <in>xmlrpc-epi-php.c</in>
+        </df>
+        <df name="xmlwriter">
+          <df name="examples">
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_xmlwriter.c</in>
+          <in>php_xmlwriter.h</in>
+        </df>
+        <df name="xsl">
+          <df name="tests">
+          </df>
+          <in>php_xsl.c</in>
+          <in>php_xsl.h</in>
+          <in>xsl_fe.h</in>
+          <in>xsltprocessor.c</in>
+        </df>
+        <df name="zip">
+          <df name="examples">
+          </df>
+          <df name="lib">
+            <in>zip.h</in>
+            <in>zip_add.c</in>
+            <in>zip_add_dir.c</in>
+            <in>zip_close.c</in>
+            <in>zip_delete.c</in>
+            <in>zip_dirent.c</in>
+            <in>zip_entry_free.c</in>
+            <in>zip_entry_new.c</in>
+            <in>zip_err_str.c</in>
+            <in>zip_error.c</in>
+            <in>zip_error_clear.c</in>
+            <in>zip_error_get.c</in>
+            <in>zip_error_get_sys_type.c</in>
+            <in>zip_error_strerror.c</in>
+            <in>zip_error_to_str.c</in>
+            <in>zip_fclose.c</in>
+            <in>zip_file_error_clear.c</in>
+            <in>zip_file_error_get.c</in>
+            <in>zip_file_get_offset.c</in>
+            <in>zip_file_strerror.c</in>
+            <in>zip_filerange_crc.c</in>
+            <in>zip_fopen.c</in>
+            <in>zip_fopen_index.c</in>
+            <in>zip_fread.c</in>
+            <in>zip_free.c</in>
+            <in>zip_get_archive_comment.c</in>
+            <in>zip_get_archive_flag.c</in>
+            <in>zip_get_file_comment.c</in>
+            <in>zip_get_name.c</in>
+            <in>zip_get_num_files.c</in>
+            <in>zip_memdup.c</in>
+            <in>zip_name_locate.c</in>
+            <in>zip_new.c</in>
+            <in>zip_open.c</in>
+            <in>zip_rename.c</in>
+            <in>zip_replace.c</in>
+            <in>zip_set_archive_comment.c</in>
+            <in>zip_set_archive_flag.c</in>
+            <in>zip_set_file_comment.c</in>
+            <in>zip_set_name.c</in>
+            <in>zip_source_buffer.c</in>
+            <in>zip_source_file.c</in>
+            <in>zip_source_filep.c</in>
+            <in>zip_source_free.c</in>
+            <in>zip_source_function.c</in>
+            <in>zip_source_zip.c</in>
+            <in>zip_stat.c</in>
+            <in>zip_stat_index.c</in>
+            <in>zip_stat_init.c</in>
+            <in>zip_strerror.c</in>
+            <in>zip_unchange.c</in>
+            <in>zip_unchange_all.c</in>
+            <in>zip_unchange_archive.c</in>
+            <in>zip_unchange_data.c</in>
+            <in>zip_win32.h</in>
+            <in>zipint.h</in>
+          </df>
+          <df name="tests">
+          </df>
+          <in>php_zip.c</in>
+          <in>php_zip.h</in>
+          <in>zip_stream.c</in>
+        </df>
+        <df name="zlib">
+          <df name="tests">
+          </df>
+          <in>php_zlib.h</in>
+          <in>zlib.c</in>
+          <in>zlib_filter.c</in>
+          <in>zlib_fopen_wrapper.c</in>
+        </df>
+      </df>
+      <df name="include">
+      </df>
+      <df name="libs">
+      </df>
+      <df name="main">
+        <df name="streams">
+          <in>cast.c</in>
+          <in>filter.c</in>
+          <in>glob_wrapper.c</in>
+          <in>memory.c</in>
+          <in>mmap.c</in>
+          <in>php_stream_context.h</in>
+          <in>php_stream_filter_api.h</in>
+          <in>php_stream_glob_wrapper.h</in>
+          <in>php_stream_mmap.h</in>
+          <in>php_stream_plain_wrapper.h</in>
+          <in>php_stream_transport.h</in>
+          <in>php_stream_userspace.h</in>
+          <in>php_streams_int.h</in>
+          <in>plain_wrapper.c</in>
+          <in>streams.c</in>
+          <in>transports.c</in>
+          <in>userspace.c</in>
+          <in>xp_socket.c</in>
+        </df>
+        <in>SAPI.c</in>
+        <in>SAPI.h</in>
+        <in>alloca.c</in>
+        <in>build-defs.h</in>
+        <in>fopen_wrappers.c</in>
+        <in>fopen_wrappers.h</in>
+        <in>getopt.c</in>
+        <in>internal_functions.c</in>
+        <in>internal_functions_cli.c</in>
+        <in>internal_functions_nw.c</in>
+        <in>internal_functions_win32.c</in>
+        <in>logos.h</in>
+        <in>main.c</in>
+        <in>mergesort.c</in>
+        <in>network.c</in>
+        <in>output.c</in>
+        <in>php.h</in>
+        <in>php_compat.h</in>
+        <in>php_config.h</in>
+        <in>php_content_types.c</in>
+        <in>php_content_types.h</in>
+        <in>php_getopt.h</in>
+        <in>php_globals.h</in>
+        <in>php_ini.c</in>
+        <in>php_ini.h</in>
+        <in>php_logos.c</in>
+        <in>php_logos.h</in>
+        <in>php_main.h</in>
+        <in>php_memory_streams.h</in>
+        <in>php_network.h</in>
+        <in>php_open_temporary_file.c</in>
+        <in>php_open_temporary_file.h</in>
+        <in>php_output.h</in>
+        <in>php_reentrancy.h</in>
+        <in>php_scandir.c</in>
+        <in>php_scandir.h</in>
+        <in>php_sprintf.c</in>
+        <in>php_streams.h</in>
+        <in>php_syslog.h</in>
+        <in>php_ticks.c</in>
+        <in>php_ticks.h</in>
+        <in>php_variables.c</in>
+        <in>php_variables.h</in>
+        <in>php_version.h</in>
+        <in>reentrancy.c</in>
+        <in>rfc1867.c</in>
+        <in>rfc1867.h</in>
+        <in>snprintf.c</in>
+        <in>snprintf.h</in>
+        <in>spprintf.c</in>
+        <in>spprintf.h</in>
+        <in>strlcat.c</in>
+        <in>strlcpy.c</in>
+        <in>win32_internal_function_disabled.h</in>
+        <in>win95nt.h</in>
+      </df>
+      <df name="modules">
+      </df>
+      <df name="netware">
+        <in>sendmail_nw.h</in>
+        <in>start.c</in>
+      </df>
+      <df name="pear">
+        <df name="scripts">
+        </df>
+      </df>
+      <df name="sapi">
+        <df name="aolserver">
+          <in>aolserver.c</in>
+        </df>
+        <df name="apache">
+          <in>libpre.c</in>
+          <in>mod_php5.c</in>
+          <in>mod_php5.h</in>
+          <in>php_apache.c</in>
+          <in>php_apache_http.h</in>
+          <in>sapi_apache.c</in>
+        </df>
+        <df name="apache2filter">
+          <in>apache_config.c</in>
+          <in>php_apache.h</in>
+          <in>php_functions.c</in>
+          <in>sapi_apache2.c</in>
+        </df>
+        <df name="apache2handler">
+          <in>apache_config.c</in>
+          <in>mod_php5.c</in>
+          <in>php_apache.h</in>
+          <in>php_functions.c</in>
+          <in>sapi_apache2.c</in>
+        </df>
+        <df name="apache_hooks">
+          <in>mod_php5.c</in>
+          <in>mod_php5.h</in>
+          <in>php_apache.c</in>
+          <in>php_apache_http.h</in>
+          <in>sapi_apache.c</in>
+        </df>
+        <df name="caudium">
+          <in>caudium.c</in>
+        </df>
+        <df name="cgi">
+          <df name="tests">
+          </df>
+          <in>cgi_main.c</in>
+          <in>fastcgi.c</in>
+          <in>fastcgi.h</in>
+        </df>
+        <df name="cli">
+          <df name="tests">
+          </df>
+          <in>cli.h</in>
+          <in>cli_win32.c</in>
+          <in>php_cli.c</in>
+          <in>php_cli_server.c</in>
+          <in>php_cli_server.h</in>
+          <in>php_http_parser.c</in>
+          <in>php_http_parser.h</in>
+          <in>php_script_server.c</in>
+          <in>php_script_server.h</in>
+        </df>
+        <df name="continuity">
+          <in>capi.c</in>
+        </df>
+        <df name="embed">
+          <in>php_embed.c</in>
+          <in>php_embed.h</in>
+        </df>
+        <df name="fpm">
+          <df name="fpm">
+            <df name="events">
+              <in>devpoll.c</in>
+              <in>devpoll.h</in>
+              <in>epoll.c</in>
+              <in>epoll.h</in>
+              <in>kqueue.c</in>
+              <in>kqueue.h</in>
+              <in>poll.c</in>
+              <in>poll.h</in>
+              <in>port.c</in>
+              <in>port.h</in>
+              <in>select.c</in>
+              <in>select.h</in>
+            </df>
+            <in>fastcgi.c</in>
+            <in>fastcgi.h</in>
+            <in>fpm.c</in>
+            <in>fpm.h</in>
+            <in>fpm_arrays.h</in>
+            <in>fpm_atomic.h</in>
+            <in>fpm_children.c</in>
+            <in>fpm_children.h</in>
+            <in>fpm_cleanup.c</in>
+            <in>fpm_cleanup.h</in>
+            <in>fpm_clock.c</in>
+            <in>fpm_clock.h</in>
+            <in>fpm_conf.c</in>
+            <in>fpm_conf.h</in>
+            <in>fpm_config.h</in>
+            <in>fpm_env.c</in>
+            <in>fpm_env.h</in>
+            <in>fpm_events.c</in>
+            <in>fpm_events.h</in>
+            <in>fpm_log.c</in>
+            <in>fpm_log.h</in>
+            <in>fpm_main.c</in>
+            <in>fpm_php.c</in>
+            <in>fpm_php.h</in>
+            <in>fpm_php_trace.c</in>
+            <in>fpm_php_trace.h</in>
+            <in>fpm_process_ctl.c</in>
+            <in>fpm_process_ctl.h</in>
+            <in>fpm_request.c</in>
+            <in>fpm_request.h</in>
+            <in>fpm_scoreboard.c</in>
+            <in>fpm_scoreboard.h</in>
+            <in>fpm_shm.c</in>
+            <in>fpm_shm.h</in>
+            <in>fpm_signals.c</in>
+            <in>fpm_signals.h</in>
+            <in>fpm_sockets.c</in>
+            <in>fpm_sockets.h</in>
+            <in>fpm_status.c</in>
+            <in>fpm_status.h</in>
+            <in>fpm_stdio.c</in>
+            <in>fpm_stdio.h</in>
+            <in>fpm_str.h</in>
+            <in>fpm_trace.c</in>
+            <in>fpm_trace.h</in>
+            <in>fpm_trace_mach.c</in>
+            <in>fpm_trace_pread.c</in>
+            <in>fpm_trace_ptrace.c</in>
+            <in>fpm_unix.c</in>
+            <in>fpm_unix.h</in>
+            <in>fpm_worker_pool.c</in>
+            <in>fpm_worker_pool.h</in>
+            <in>zlog.c</in>
+            <in>zlog.h</in>
+          </df>
+        </df>
+        <df name="isapi">
+          <df name="stresstest">
+            <in>getopt.c</in>
+            <in>getopt.h</in>
+            <in>stresstest.cpp</in>
+          </df>
+          <in>php5isapi.c</in>
+        </df>
+        <df name="litespeed">
+          <in>lsapi_main.c</in>
+          <in>lsapidef.h</in>
+          <in>lsapilib.c</in>
+          <in>lsapilib.h</in>
+        </df>
+        <df name="milter">
+          <in>getopt.c</in>
+          <in>php_getopt.h</in>
+          <in>php_milter.c</in>
+          <in>php_milter.h</in>
+        </df>
+        <df name="nsapi">
+          <in>nsapi.c</in>
+        </df>
+        <df name="phttpd">
+          <in>php_phttpd.h</in>
+          <in>phttpd.c</in>
+        </df>
+        <df name="pi3web">
+          <in>pi3web_sapi.c</in>
+          <in>pi3web_sapi.h</in>
+        </df>
+        <df name="roxen">
+          <in>roxen.c</in>
+        </df>
+        <df name="tests">
+        </df>
+        <df name="thttpd">
+          <in>php_thttpd.h</in>
+          <in>stub.c</in>
+          <in>thttpd.c</in>
+        </df>
+        <df name="tux">
+          <in>php_tux.c</in>
+        </df>
+        <df name="webjames">
+          <in>php_webjames.h</in>
+          <in>webjames.c</in>
+        </df>
+      </df>
+      <df name="scripts">
+        <df name="apache">
+        </df>
+        <df name="dev">
+          <df name="generate-phpt">
+            <df name="src">
+              <df name="codeSnippets">
+              </df>
+              <df name="setup">
+                <df name="exceptions">
+                </df>
+                <df name="preconditions">
+                </df>
+              </df>
+              <df name="testcase">
+              </df>
+              <df name="texts">
+              </df>
+            </df>
+            <df name="tests">
+            </df>
+          </df>
+        </df>
+        <df name="man1">
+        </df>
+      </df>
+      <df name="tests">
+        <df name="basic">
+        </df>
+        <df name="classes">
+        </df>
+        <df name="func">
+        </df>
+        <df name="lang">
+          <df name="include_files">
+          </df>
+          <df name="operators">
+          </df>
+        </df>
+        <df name="output">
+        </df>
+        <df name="run-test">
+        </df>
+        <df name="security">
+        </df>
+        <df name="strings">
+        </df>
+      </df>
+      <df name="TSRM">
+        <in>TSRM.c</in>
+        <in>TSRM.h</in>
+        <in>readdir.h</in>
+        <in>tsrm_config.h</in>
+        <in>tsrm_config.w32.h</in>
+        <in>tsrm_config_common.h</in>
+        <in>tsrm_nw.c</in>
+        <in>tsrm_nw.h</in>
+        <in>tsrm_strtok_r.c</in>
+        <in>tsrm_strtok_r.h</in>
+        <in>tsrm_virtual_cwd.c</in>
+        <in>tsrm_virtual_cwd.h</in>
+        <in>tsrm_win32.c</in>
+        <in>tsrm_win32.h</in>
+      </df>
+      <df name="win32">
+        <df name="build">
+          <in>deplister.c</in>
+        </df>
+        <in>flock.c</in>
+        <in>flock.h</in>
+        <in>fnmatch.c</in>
+        <in>fnmatch.h</in>
+        <in>glob.c</in>
+        <in>glob.h</in>
+        <in>globals.c</in>
+        <in>grp.h</in>
+        <in>inet.c</in>
+        <in>inet.h</in>
+        <in>param.h</in>
+        <in>php_registry.h</in>
+        <in>php_stdbool.h</in>
+        <in>php_stdint.h</in>
+        <in>php_strtoi64.h</in>
+        <in>php_win32_globals.h</in>
+        <in>readdir.c</in>
+        <in>readdir.h</in>
+        <in>registry.c</in>
+        <in>resource.h</in>
+        <in>select.c</in>
+        <in>select.h</in>
+        <in>sendmail.c</in>
+        <in>sendmail.h</in>
+        <in>signal.h</in>
+        <in>sockets.c</in>
+        <in>sockets.h</in>
+        <in>strtoi64.c</in>
+        <in>syslog.h</in>
+        <in>time.c</in>
+        <in>time.h</in>
+        <in>unistd.h</in>
+        <in>winutil.c</in>
+        <in>winutil.h</in>
+        <in>wsyslog.c</in>
+      </df>
+      <df name="Zend">
+        <df name="RFCs">
+        </df>
+        <df name="tests">
+          <df name="bug39542">
+          </df>
+          <df name="constants">
+            <df name="fixtures">
+              <df name="folder1">
+                <df name="subfolder1">
+                </df>
+                <df name="subfolder2">
+                </df>
+                <df name="subfolder3">
+                </df>
+                <df name="subfolder4">
+                </df>
+              </df>
+              <df name="folder2">
+                <df name="subfolder1">
+                </df>
+                <df name="subfolder2">
+                </df>
+                <df name="subfolder3">
+                </df>
+                <df name="subfolder4">
+                </df>
+              </df>
+              <df name="folder3">
+                <df name="subfolder1">
+                </df>
+                <df name="subfolder2">
+                </df>
+                <df name="subfolder3">
+                </df>
+                <df name="subfolder4">
+                </df>
+              </df>
+              <df name="folder4">
+                <df name="subfolder1">
+                </df>
+                <df name="subfolder2">
+                </df>
+                <df name="subfolder3">
+                </df>
+                <df name="subfolder4">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="multibyte">
+          </df>
+          <df name="traits">
+            <df name="bugs">
+            </df>
+          </df>
+        </df>
+        <in>zend.c</in>
+        <in>zend.h</in>
+        <in>zend_API.c</in>
+        <in>zend_API.h</in>
+        <in>zend_alloc.c</in>
+        <in>zend_alloc.h</in>
+        <in>zend_build.h</in>
+        <in>zend_builtin_functions.c</in>
+        <in>zend_builtin_functions.h</in>
+        <in>zend_closures.c</in>
+        <in>zend_closures.h</in>
+        <in>zend_compile.c</in>
+        <in>zend_compile.h</in>
+        <in>zend_config.h</in>
+        <in>zend_config.nw.h</in>
+        <in>zend_config.w32.h</in>
+        <in>zend_constants.c</in>
+        <in>zend_constants.h</in>
+        <in>zend_default_classes.c</in>
+        <in>zend_dtrace.c</in>
+        <in>zend_dtrace.h</in>
+        <in>zend_dynamic_array.c</in>
+        <in>zend_dynamic_array.h</in>
+        <in>zend_errors.h</in>
+        <in>zend_exceptions.c</in>
+        <in>zend_exceptions.h</in>
+        <in>zend_execute.c</in>
+        <in>zend_execute.h</in>
+        <in>zend_execute_API.c</in>
+        <in>zend_extensions.c</in>
+        <in>zend_extensions.h</in>
+        <in>zend_float.c</in>
+        <in>zend_float.h</in>
+        <in>zend_gc.c</in>
+        <in>zend_gc.h</in>
+        <in>zend_globals.h</in>
+        <in>zend_globals_macros.h</in>
+        <in>zend_hash.c</in>
+        <in>zend_hash.h</in>
+        <in>zend_highlight.c</in>
+        <in>zend_highlight.h</in>
+        <in>zend_indent.c</in>
+        <in>zend_indent.h</in>
+        <in>zend_ini.c</in>
+        <in>zend_ini.h</in>
+        <in>zend_ini_parser.c</in>
+        <in>zend_ini_parser.h</in>
+        <in>zend_ini_scanner.c</in>
+        <in>zend_ini_scanner.h</in>
+        <in>zend_ini_scanner_defs.h</in>
+        <in>zend_interfaces.c</in>
+        <in>zend_interfaces.h</in>
+        <in>zend_istdiostream.h</in>
+        <in>zend_iterators.c</in>
+        <in>zend_iterators.h</in>
+        <in>zend_language_parser.c</in>
+        <in>zend_language_parser.h</in>
+        <in>zend_language_scanner.c</in>
+        <in>zend_language_scanner.h</in>
+        <in>zend_language_scanner_defs.h</in>
+        <in>zend_list.c</in>
+        <in>zend_list.h</in>
+        <in>zend_llist.c</in>
+        <in>zend_llist.h</in>
+        <in>zend_modules.h</in>
+        <in>zend_multibyte.c</in>
+        <in>zend_multibyte.h</in>
+        <in>zend_multiply.h</in>
+        <in>zend_object_handlers.c</in>
+        <in>zend_object_handlers.h</in>
+        <in>zend_objects.c</in>
+        <in>zend_objects.h</in>
+        <in>zend_objects_API.c</in>
+        <in>zend_objects_API.h</in>
+        <in>zend_opcode.c</in>
+        <in>zend_operators.c</in>
+        <in>zend_operators.h</in>
+        <in>zend_ptr_stack.c</in>
+        <in>zend_ptr_stack.h</in>
+        <in>zend_qsort.c</in>
+        <in>zend_qsort.h</in>
+        <in>zend_signal.c</in>
+        <in>zend_signal.h</in>
+        <in>zend_sprintf.c</in>
+        <in>zend_stack.c</in>
+        <in>zend_stack.h</in>
+        <in>zend_static_allocator.c</in>
+        <in>zend_static_allocator.h</in>
+        <in>zend_stream.c</in>
+        <in>zend_stream.h</in>
+        <in>zend_string.c</in>
+        <in>zend_string.h</in>
+        <in>zend_strtod.c</in>
+        <in>zend_strtod.h</in>
+        <in>zend_ts_hash.c</in>
+        <in>zend_ts_hash.h</in>
+        <in>zend_types.h</in>
+        <in>zend_variables.c</in>
+        <in>zend_variables.h</in>
+        <in>zend_vm.h</in>
+        <in>zend_vm_def.h</in>
+        <in>zend_vm_execute.h</in>
+        <in>zend_vm_opcodes.h</in>
+      </df>
+      <in>stub.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要なファイル"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>TSRM</pElem>
+              <pElem>/usr/include/libxml2</pElem>
+              <pElem>ext/sqlite3/libsqlite</pElem>
+              <pElem>ext/ereg/regex</pElem>
+              <pElem>ext/date/lib</pElem>
+              <pElem>Zend</pElem>
+              <pElem>/usr/include</pElem>
+              <pElem>.</pElem>
+              <pElem>include</pElem>
+              <pElem>main</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ZEND_SIGNALS</Elem>
+              <Elem>PHP_ATOM_INC</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="TSRM/readdir.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="TSRM/tsrm_config.w32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="TSRM/tsrm_nw.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="TSRM/tsrm_nw.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="TSRM/tsrm_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="TSRM/tsrm_win32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_config.nw.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_config.w32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_dynamic_array.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_istdiostream.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_static_allocator.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="Zend/zend_static_allocator.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Zend/zend_vm_def.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bcmath/bcmath.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/acconfig.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/add.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/bcmath.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/compare.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/config.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/debug.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/div.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/divmod.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/doaddsub.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/init.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/int2num.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/nearzero.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/neg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/num2long.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/num2str.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/outofmem.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/output.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/private.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/raise.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/raisemod.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/recmul.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/rmzero.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/rt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/sqrt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/str2num.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/sub.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/libbcmath/src/zero.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bcmath/php_bcmath.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/bz2/bz2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bz2/bz2_filter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/bz2/php_bz2.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/calendar/cal_unix.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/calendar.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/dow.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/easter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/french.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/gregor.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/jewish.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/julian.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/calendar/php_calendar.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/calendar/sdncal.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_com.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_dotnet.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_extension.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_handlers.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_iterator.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_misc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_olechar.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_persist.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_saproxy.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_typeinfo.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_variant.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/com_wrapper.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/php_com_dotnet.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/com_dotnet/php_com_dotnet_internal.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/curl/interface.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/curl/multi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/curl/php_curl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/curl/share.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/curl/streams.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_cdb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_db1.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_db2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_db3.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_db4.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_dbm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_flatfile.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_gdbm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_inifile.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_ndbm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_qdbm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/dba_tcadb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/cdb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/cdb.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/cdb_make.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/cdb_make.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/uint32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libcdb/uint32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/libflatfile/flatfile.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libflatfile/flatfile.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/libinifile/inifile.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/dba/libinifile/inifile.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_cdb.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_db1.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_db2.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_db3.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_db4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_dba.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_dbm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_flatfile.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_gdbm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_inifile.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_ndbm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_qdbm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/dba/php_tcadb.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/enchant/enchant.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/enchant/php_enchant.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/debug.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/debug.ih" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/engine.c" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/main.ih" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/ereg/regex/split.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/exif/exif.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/exif/php_exif.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/fileinfo/data_file.c" ex="false" tool="3" flavor="0">
+      </item>
+      <item path="ext/fileinfo/libmagic/elfclass.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/fileinfo/libmagic/readelf.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/ftp/ftp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/ftp/ftp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/ftp/php_ftp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/ftp/php_ftp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/gd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/gd_ctx.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/gdcache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/gdcache.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd2copypal.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd2time.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd2topng.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_arc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_arc_f_buggy.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_color.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_compat.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_compat.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_filter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_gd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_gd2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_gif_in.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_gif_out.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_intern.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_io.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_io.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_io_dp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_io_file.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_io_ss.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_jpeg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_pixelate.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_png.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_rotate.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_security.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_ss.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_topal.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_wbmp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gd_webp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdcache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdcache.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gddemo.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontg.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontmb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontmb.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfonts.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfonts.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdfontt.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdft.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdhelpers.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdhelpers.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdkanji.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdparttopng.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdtables.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdtest.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdtestft.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdtopng.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/gdxpm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/jisx0208.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/mathmake.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/pngtogd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/pngtogd2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/testac.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/wbmp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/wbmp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/webpimg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/webpimg.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/webpng.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/libgd/xbm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gd/php_gd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gettext/gettext.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gettext/php_gettext.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/gmp/gmp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/gmp/php_gmp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/imap/php_imap.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/imap/php_imap.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/interbase/ibase_blobs.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/ibase_events.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/ibase_query.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/ibase_service.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/interbase.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/php_ibase_includes.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/interbase/php_ibase_udf.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/interbase/php_interbase.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_attr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_attr.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_class.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_class.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_compare.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_compare.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_convert.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_convert.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_create.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_create.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_error.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_error.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_is_numeric.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_is_numeric.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_locale.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_locale.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_sort.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/collator/collator_sort.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/common/common_error.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/common/common_error.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_attr.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_attr.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_class.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_class.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_data.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_data.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_format.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_format.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_parse.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/dateformat/dateformat_parse.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_attr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_attr.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_class.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_class.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_data.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_data.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_format.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_format.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_main.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_parse.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/formatter/formatter_parse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/grapheme/grapheme.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/grapheme/grapheme_string.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/grapheme/grapheme_util.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/grapheme/grapheme_util.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/idn/idn.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/idn/idn.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/intl_common.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/intl_convert.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/intl_convert.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/intl_data.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/intl_error.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/intl_error.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale_class.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale_class.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale_methods.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/locale/locale_methods.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_attr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_attr.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_class.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_class.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_data.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_data.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_format.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_format.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_helpers.cpp"
+            ex="true"
+            tool="1"
+            flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_helpers.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_parse.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/msgformat/msgformat_parse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer_class.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer_class.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer_normalize.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/normalizer/normalizer_normalize.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/php_intl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/php_intl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle_class.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle_class.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle_iterator.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/resourcebundle/resourcebundle_iterator.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_class.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_class.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_create.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_create.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_main.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/spoofchecker/spoofchecker_main.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator_class.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator_class.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator_methods.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/intl/transliterator/transliterator_methods.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/ldap/ldap.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/ldap/php_ldap.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/cp932_table.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/emoji2uni.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/html_entities.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/html_entities.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_7bit.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_7bit.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_armscii8.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_armscii8.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ascii.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ascii.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_base64.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_base64.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_big5.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_big5.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_byte2.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_byte2.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_byte4.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_byte4.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1251.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1251.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1252.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1252.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1254.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp1254.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp5022x.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp5022x.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp51932.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp51932.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp850.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp850.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp866.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp866.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp932.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp932.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp936.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_cp936.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_cn.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_cn.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp_2004.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp_2004.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp_win.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_jp_win.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_kr.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_kr.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_tw.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_euc_tw.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_gb18030.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_gb18030.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_htmlent.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_htmlent.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_hz.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_hz.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022_jp_ms.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022_jp_ms.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022_kr.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022_kr.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_2004.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_2004.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_mobile.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso2022jp_mobile.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_1.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_1.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_10.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_10.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_13.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_13.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_14.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_14.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_15.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_15.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_16.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_16.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_2.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_2.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_3.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_3.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_4.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_4.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_5.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_5.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_6.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_6.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_7.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_7.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_8.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_8.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_9.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_iso8859_9.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_jis.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_jis.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_koi8r.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_koi8r.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_koi8u.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_koi8u.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_qprint.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_qprint.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_2004.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_2004.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_mac.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_mac.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_mobile.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_mobile.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_open.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_sjis_open.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ucs2.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ucs2.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ucs4.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_ucs4.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_uhc.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_uhc.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf16.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf16.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf32.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf32.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf7.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf7.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf7imap.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf7imap.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf8.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf8.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf8_mobile.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_utf8_mobile.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_uuencode.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/mbfilter_uuencode.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/sjis_mac2uni.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/translit_kana_jisx0201_jisx0208.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_prop.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_armscii8.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_big5.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cns11643.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp1251.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp1252.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp1254.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp850.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp866.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp932_ext.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_cp936.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_gb18030.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_10.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_13.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_14.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_15.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_16.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_2.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_3.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_4.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_5.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_6.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_7.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_8.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_iso8859_9.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_jis.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_jis2004.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_koi8r.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_koi8u.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/filters/unicode_table_uhc.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/eaw_table.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_8bit.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_8bit.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_pass.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_pass.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_wchar.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfilter_wchar.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_allocators.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_allocators.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_consts.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_convert.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_convert.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_defs.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_encoding.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_encoding.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_filter_output.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_filter_output.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_ident.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_ident.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_language.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_language.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_memory_device.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_memory_device.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_string.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/mbfl/mbfl_string.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_de.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_de.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_en.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_en.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_hy.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_hy.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ja.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ja.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_kr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_kr.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_neutral.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_neutral.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ru.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ru.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_tr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_tr.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ua.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_ua.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_uni.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_uni.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_zh.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/nls/nls_zh.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/conv_encoding.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/conv_encoding.tests/gen_exp.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/conv_kana.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/emoji.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/sample.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/strcut.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/libmbfl/tests/strwidth.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/mb_gpc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/mb_gpc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/mbstring.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/mbstring.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/ascii.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/big5.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/cp1251.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/euc_jp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/euc_kr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/euc_tw.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/gb18030.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_1.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_10.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_11.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_13.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_14.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_15.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_16.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_2.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_3.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_4.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_5.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_6.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_7.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_8.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/iso8859_9.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/koi8.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/koi8_r.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/mktable.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/sjis.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/unicode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/utf16_be.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/utf16_le.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/utf32_be.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/utf32_le.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/enc/utf8.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/onigcmpt200.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/oniggnu.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/onigposix.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/oniguruma.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regcomp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regenc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regenc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regerror.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regexec.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regext.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/reggnu.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regint.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regparse.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regparse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regposerr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regposix.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regsyntax.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regtrav.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/regversion.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/st.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/st.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/testc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/testu.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/win32/config.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mbstring/oniguruma/win32/testc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/php_mbregex.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/php_mbregex.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/php_onig_compat.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/php_unicode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/php_unicode.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mbstring/ucgendat/ucgendat.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mbstring/unicode_data.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mcrypt/mcrypt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mcrypt/mcrypt_filter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mcrypt/php_mcrypt.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mcrypt/php_mcrypt_filter.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mssql/php_mssql.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mssql/php_mssql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysql/mysql_mysqlnd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysql/php_mysql.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysql/php_mysql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysql/php_mysql_structs.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_api.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_embedded.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_exception.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_fe.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_fe.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_libmysql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_mysqlnd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_nonapi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_priv.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_prop.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_report.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_report.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_result_iterator.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/mysqli_warning.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqli/php_mysqli.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqli/php_mysqli_structs.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/config-win.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_alloc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_alloc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_auth.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_block_alloc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_block_alloc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_bt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_charset.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_charset.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_debug.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_debug.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_enum_n_def.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_ext_plugin.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_ext_plugin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_libmysql_compat.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_loaddata.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_net.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_net.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_plugin.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_portability.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_priv.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_ps.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_ps_codec.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_result.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_result.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_result_meta.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_result_meta.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_reverse_api.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_reverse_api.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_statistics.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_statistics.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_structs.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_wireprotocol.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/mysqlnd_wireprotocol.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/php_mysqlnd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/mysqlnd/php_mysqlnd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/oci8/oci8.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/oci8/oci8_collection.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/oci8/oci8_interface.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/oci8/oci8_lob.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/oci8/oci8_statement.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/oci8/php_oci8.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/oci8/php_oci8_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/odbc/birdstep.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/odbc/php_birdstep.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/odbc/php_odbc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/odbc/php_odbc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/odbc/php_odbc_includes.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/openssl/openssl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/openssl/php_openssl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/openssl/xp_ssl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcntl/pcntl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcntl/php_pcntl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pcntl/php_signal.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcntl/php_signal.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pcre/pcrelib/dftables.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcre/pcrelib/pcredemo.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcre/pcrelib/pcreposix.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pcre/pcrelib/pcreposix.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_dblib/dblib_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_dblib/dblib_stmt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_dblib/pdo_dblib.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_dblib/php_pdo_dblib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_dblib/php_pdo_dblib_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_firebird/firebird_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_firebird/firebird_statement.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/pdo_firebird/pdo_firebird.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_firebird/php_pdo_firebird.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_firebird/php_pdo_firebird_int.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/mysql_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/mysql_statement.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/pdo_mysql.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/php_pdo_mysql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/php_pdo_mysql_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_mysql/php_pdo_mysql_sqlstate.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/pdo_oci/oci_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_oci/oci_statement.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_oci/pdo_oci.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_oci/php_pdo_oci.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_oci/php_pdo_oci_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_odbc/odbc_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_odbc/odbc_stmt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_odbc/pdo_odbc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_odbc/php_pdo_odbc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_odbc/php_pdo_odbc_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_pgsql/pdo_pgsql.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_pgsql/pgsql_driver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_pgsql/pgsql_statement.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pdo_pgsql/php_pdo_pgsql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pdo_pgsql/php_pdo_pgsql_int.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pgsql/pgsql.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/pgsql/php_pgsql.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pspell/php_pspell.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/pspell/pspell.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/readline/php_readline.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/readline/readline.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/readline/readline_cli.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/readline/readline_cli.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/recode/php_recode.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/recode/recode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/session/mod_mm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/shmop/php_shmop.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/shmop/shmop.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/skeleton/php_skeleton.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/skeleton/skeleton.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/snmp/php_snmp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/snmp/snmp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_encoding.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_encoding.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_http.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_http.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_packet_soap.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_packet_soap.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_schema.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_schema.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_sdl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_sdl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_soap.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/php_xml.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/soap/php_xml.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/soap/soap.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sockets/multicast.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sockets/multicast.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sockets/php_sockets.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sockets/sockets.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sockets/unix_socket_constants.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sockets/win32_socket_constants.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sqlite3/libsqlite/sqlite3ext.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/standard/dns_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/standard/link_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/standard/winver.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sybase_ct/php_sybase_ct.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sybase_ct/php_sybase_ct.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sysvmsg/php_sysvmsg.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sysvmsg/sysvmsg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sysvsem/php_sysvsem.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sysvsem/sysvsem.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/sysvshm/php_sysvshm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/sysvshm/sysvshm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/tidy/php_tidy.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/tidy/tidy.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/wddx/php_wddx.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/wddx/php_wddx_api.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/wddx/wddx.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/base64.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/base64.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/encodings.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/encodings.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/queue.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/queue.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/simplestring.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/simplestring.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/system_methods.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/system_methods_private.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_element.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_element.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_dandarpc.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_dandarpc.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_soap.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_soap.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_xmlrpc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xml_to_xmlrpc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc_introspection.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc_introspection.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc_introspection_private.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc_private.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="ext/xmlrpc/libxmlrpc/xmlrpc_win32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/php_xmlrpc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xmlrpc/xmlrpc-epi-php.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xsl/php_xsl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/xsl/php_xsl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xsl/xsl_fe.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/xsl/xsltprocessor.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_add.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_add_dir.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_close.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_delete.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_dirent.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_entry_free.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_entry_new.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_err_str.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error_clear.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error_get.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error_get_sys_type.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error_strerror.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_error_to_str.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_fclose.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_file_error_clear.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_file_error_get.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_file_get_offset.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_file_strerror.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_filerange_crc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_fopen.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_fopen_index.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_fread.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_free.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_get_archive_comment.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_get_archive_flag.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_get_file_comment.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_get_name.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_get_num_files.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_memdup.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_name_locate.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_new.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_open.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_rename.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_replace.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_set_archive_comment.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_set_archive_flag.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_set_file_comment.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_set_name.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_buffer.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_file.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_filep.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_free.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_function.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_source_zip.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_stat.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_stat_index.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_stat_init.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_strerror.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_unchange.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_unchange_all.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_unchange_archive.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_unchange_data.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zip_win32.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/zip/lib/zipint.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/zip/php_zip.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zip/php_zip.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/zip/zip_stream.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zlib/php_zlib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="ext/zlib/zlib.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zlib/zlib_filter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="ext/zlib/zlib_fopen_wrapper.c" ex="true" tool="0" flavor="0">
+      </item>
+      <folder path="php-src-trunk/TSRM">
+        <cTool>
+          <incDir>
+            <pElem>TSRM/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/Zend">
+        <cTool>
+          <incDir>
+            <pElem>Zend/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/ctype">
+        <cTool>
+          <incDir>
+            <pElem>ext/ctype</pElem>
+            <pElem>ext/ctype/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/date">
+        <cTool>
+          <incDir>
+            <pElem>ext/date/</pElem>
+            <pElem>ext/date</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/dom">
+        <cTool>
+          <incDir>
+            <pElem>ext/dom/</pElem>
+            <pElem>ext/dom</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/ereg">
+        <cTool>
+          <incDir>
+            <pElem>ext/ereg/</pElem>
+            <pElem>ext/ereg</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>regexec=php_regexec</Elem>
+            <Elem>regerror=php_regerror</Elem>
+            <Elem>regfree=php_regfree</Elem>
+            <Elem>regcomp=php_regcomp</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/fileinfo">
+        <cTool>
+          <incDir>
+            <pElem>ext/fileinfo/</pElem>
+            <pElem>ext/fileinfo</pElem>
+            <pElem>ext/fileinfo/libmagic</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/filter">
+        <cTool>
+          <incDir>
+            <pElem>ext/filter</pElem>
+            <pElem>ext/filter/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/hash">
+        <cTool>
+          <incDir>
+            <pElem>ext/hash/</pElem>
+            <pElem>ext/hash</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/iconv">
+        <cTool>
+          <incDir>
+            <pElem>ext/iconv</pElem>
+            <pElem>ext/iconv/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/json">
+        <cTool>
+          <incDir>
+            <pElem>ext/json/</pElem>
+            <pElem>ext/json</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/libxml">
+        <cTool>
+          <incDir>
+            <pElem>ext/libxml/</pElem>
+            <pElem>ext/libxml</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/pcre">
+        <cTool>
+          <incDir>
+            <pElem>ext/pcre</pElem>
+            <pElem>ext/pcre/</pElem>
+            <pElem>ext/pcre/pcrelib</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/pdo">
+        <cTool>
+          <incDir>
+            <pElem>ext/pdo</pElem>
+            <pElem>ext/pdo/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/pdo_sqlite">
+        <cTool>
+          <incDir>
+            <pElem>ext</pElem>
+            <pElem>ext/pdo_sqlite/</pElem>
+            <pElem>ext/pdo_sqlite</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>SQLITE_ENABLE_COLUMN_METADATA=1</Elem>
+            <Elem>SQLITE_CORE=1</Elem>
+            <Elem>SQLITE_THREADSAFE=0</Elem>
+            <Elem>SQLITE_ENABLE_FTS3=1</Elem>
+            <Elem>PDO_SQLITE_BUNDLED=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/posix">
+        <cTool>
+          <incDir>
+            <pElem>ext/posix</pElem>
+            <pElem>ext/posix/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/reflection">
+        <cTool>
+          <incDir>
+            <pElem>ext/reflection/</pElem>
+            <pElem>ext/reflection</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/session">
+        <cTool>
+          <incDir>
+            <pElem>ext/session/</pElem>
+            <pElem>ext/session</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/simplexml">
+        <cTool>
+          <incDir>
+            <pElem>ext/simplexml/</pElem>
+            <pElem>ext/simplexml</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/spl">
+        <cTool>
+          <incDir>
+            <pElem>ext/spl/</pElem>
+            <pElem>ext/spl</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/sqlite3">
+        <cTool>
+          <incDir>
+            <pElem>ext/sqlite3</pElem>
+            <pElem>ext/sqlite3/</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>SQLITE_ENABLE_COLUMN_METADATA=1</Elem>
+            <Elem>SQLITE_CORE=1</Elem>
+            <Elem>SQLITE_THREADSAFE=0</Elem>
+            <Elem>SQLITE_ENABLE_FTS3=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/standard">
+        <cTool>
+          <incDir>
+            <pElem>ext/standard/</pElem>
+            <pElem>ext/standard</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/tokenizer">
+        <cTool>
+          <incDir>
+            <pElem>ext/tokenizer</pElem>
+            <pElem>ext/tokenizer/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/xml">
+        <cTool>
+          <incDir>
+            <pElem>ext/xml/</pElem>
+            <pElem>ext/xml</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/xmlreader">
+        <cTool>
+          <incDir>
+            <pElem>ext/xmlreader/</pElem>
+            <pElem>ext/xmlreader</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/ext/xmlwriter">
+        <cTool>
+          <incDir>
+            <pElem>ext/xmlwriter/</pElem>
+            <pElem>ext/xmlwriter</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/main/streams">
+        <cTool>
+          <incDir>
+            <pElem>main/streams/</pElem>
+            <pElem>main/streams</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/sapi/cgi">
+        <cTool>
+          <incDir>
+            <pElem>sapi/cgi/</pElem>
+            <pElem>sapi/cgi</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="php-src-trunk/sapi/cli">
+        <cTool>
+          <incDir>
+            <pElem>sapi/cli</pElem>
+            <pElem>sapi/cli/</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="main/SAPI.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/alloca.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/fopen_wrappers.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/getopt.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/internal_functions.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="main/internal_functions_cli.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/internal_functions_nw.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="main/internal_functions_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="main/main.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/mergesort.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/network.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/output.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_content_types.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_ini.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_logos.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_open_temporary_file.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_scandir.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_sprintf.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_ticks.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/php_variables.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/reentrancy.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/rfc1867.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/snprintf.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/spprintf.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/strlcat.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/strlcpy.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <incDir>
+            <pElem>main/</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main/win32_internal_function_disabled.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="main/win95nt.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="netware/sendmail_nw.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="netware/start.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/aolserver/aolserver.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache/libpre.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache/mod_php5.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache/mod_php5.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache/php_apache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache/php_apache_http.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache/sapi_apache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2filter/apache_config.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2filter/php_apache.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache2filter/php_functions.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2filter/sapi_apache2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2handler/apache_config.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2handler/mod_php5.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2handler/php_apache.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache2handler/php_functions.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache2handler/sapi_apache2.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache_hooks/mod_php5.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache_hooks/mod_php5.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache_hooks/php_apache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/apache_hooks/php_apache_http.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/apache_hooks/sapi_apache.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/caudium/caudium.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/cli/cli_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/continuity/capi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/embed/php_embed.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/embed/php_embed.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/devpoll.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/devpoll.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/epoll.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/epoll.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/kqueue.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/kqueue.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/poll.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/poll.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/port.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/port.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/select.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/events/select.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fastcgi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fastcgi.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_arrays.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_atomic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_children.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_children.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_cleanup.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_cleanup.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_clock.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_clock.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_conf.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_conf.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_config.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_env.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_env.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_events.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_events.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_log.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_log.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_php.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_php.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_php_trace.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_php_trace.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_process_ctl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_process_ctl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_request.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_request.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_scoreboard.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_scoreboard.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_shm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_shm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_signals.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_signals.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_sockets.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_sockets.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_status.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_status.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_stdio.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_stdio.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_str.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_trace.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_trace.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_trace_mach.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_trace_pread.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_trace_ptrace.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_unix.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_unix.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_worker_pool.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/fpm_worker_pool.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/zlog.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/fpm/fpm/zlog.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/isapi/php5isapi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/isapi/stresstest/getopt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/isapi/stresstest/getopt.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/isapi/stresstest/stresstest.cpp" ex="true" tool="1" flavor="0">
+      </item>
+      <item path="sapi/litespeed/lsapi_main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/litespeed/lsapidef.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/litespeed/lsapilib.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/litespeed/lsapilib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/milter/getopt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/milter/php_getopt.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/milter/php_milter.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/milter/php_milter.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/nsapi/nsapi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/phttpd/php_phttpd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/phttpd/phttpd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/pi3web/pi3web_sapi.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/pi3web/pi3web_sapi.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/roxen/roxen.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/thttpd/php_thttpd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/thttpd/stub.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/thttpd/thttpd.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/tux/php_tux.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="sapi/webjames/php_webjames.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="sapi/webjames/webjames.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="stub.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/build/deplister.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/flock.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/flock.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/fnmatch.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/fnmatch.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/glob.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/glob.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/globals.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/grp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/inet.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/inet.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/param.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/php_registry.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/php_stdbool.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/php_stdint.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/php_strtoi64.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/php_win32_globals.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/readdir.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/readdir.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/registry.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/resource.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/select.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/select.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/sendmail.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/sendmail.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/signal.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/sockets.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/sockets.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/strtoi64.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/syslog.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/time.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/time.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/unistd.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/winutil.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="win32/winutil.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="win32/wsyslog.c" ex="true" tool="0" flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
